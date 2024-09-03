@@ -6,20 +6,9 @@
 
 `SEMESTRE: 1º`
 
-## Objetivos da NoteRepair
+## Objetivo Geral da NoteRepair
 
-A NoteRepair é uma plataforma integrada voltada para otimizar todo o processo de reparo de notebooks, desde o cadastro do cliente até a entrega do equipamento consertado. Os principais objetivos incluem:
-
-- **Cadastro e Solicitação:** Facilitar o registro de clientes e a solicitação de reparos, assegurando a coleta de informações essenciais de forma simples e segura.
-- **Processamento de Pedidos:** Automatizar o gerenciamento de pedidos, permitindo o acompanhamento detalhado de todas as etapas do processo de reparo.
-- **Gerenciamento de Recursos:** Integrar o gerenciamento de peças e permissões, garantindo que os técnicos tenham os recursos necessários para realizar os consertos.
-- **Emissão de Relatórios:** Oferecer relatórios automatizados que fornecem uma visão completa do fluxo de trabalho e suporte à tomada de decisões estratégicas.
-- **Gestão Financeira:** Facilitar o processamento de cobranças e a emissão de notas fiscais, vinculando diretamente aos serviços prestados.
-- **Transporte e Logística:** Proporcionar a coleta e entrega dos notebooks, garantindo conveniência e segurança para o cliente.
-- **Comunicação com o Cliente:** Manter os clientes informados em tempo real sobre o status do reparo, promovendo transparência e satisfação.
-- **Suporte Técnico:** Fornecer aos técnicos uma interface integrada com todas as informações necessárias para realizar os reparos com eficiência.
-- **Gestão de Estoque e Compras:** Automatizar a gestão de estoque e suprimentos, garantindo a disponibilidade dos materiais necessários.
-- **Integração Multissetorial:** Assegurar a integração entre todos os setores envolvidos, promovendo uma operação coesa e eficaz.
+O objetivo da NoteRepair é desenvolver uma plataforma integrada e automatizada que otimize todo o processo de reparo de notebooks, desde o cadastro inicial do cliente até a entrega do equipamento reparado. A plataforma visa melhorar a eficiência operacional da empresa, promovendo a transparência e a conveniência para os clientes, ao mesmo tempo em que integra e simplifica as funções essenciais, como o processamento de pedidos, gerenciamento de recursos, emissão de relatórios, gestão financeira, transporte, comunicação com o cliente, suporte técnico e gestão de estoque. Com isso, a NoteRepair busca transformar a experiência de reparo em um processo mais coeso, ágil e satisfatório para todas as partes envolvidas.
 
 ## Integrantes
 
