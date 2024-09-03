@@ -12,7 +12,7 @@ Os objetivos da NoteRepair são proporcionar um monitoramento eficiente e transp
 
 * Pedro Paulo Salman de Oliveira
 * João Victor dos Santos
-* Nome completo do aluno 3
+* Amanda Santiago Oliveira dos Santos
 * Nome completo do aluno 4
 
 ## Orientador
