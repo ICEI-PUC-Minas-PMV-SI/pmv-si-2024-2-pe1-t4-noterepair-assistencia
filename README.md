@@ -6,14 +6,26 @@
 
 `SEMESTRE: 1º`
 
-Os objetivos da NoteRepair são proporcionar um monitoramento eficiente e transparente de serviços de assistência técnica para notebooks, centralizar o processo de busca, agendamento e acompanhamento de reparos, e facilitar a entrega e devolução do notebook através de uma única plataforma web.
+Objetivos da NoteRepair
+A NoteRepair é uma plataforma integrada voltada para otimizar todo o processo de reparo de notebooks, desde o cadastro do cliente até a entrega do equipamento consertado. Os principais objetivos incluem:
+
+*Cadastro e Solicitação:* Facilitar o registro de clientes e a solicitação de reparos, assegurando a coleta de informações essenciais de forma simples e segura.
+*Processamento de Pedidos:* Automatizar o gerenciamento de pedidos, permitindo o acompanhamento detalhado de todas as etapas do processo de reparo.
+*Gerenciamento de Recursos:* Integrar o gerenciamento de peças e permissões, garantindo que os técnicos tenham os recursos necessários para realizar os consertos.
+*Emissão de Relatórios:* Oferecer relatórios automatizados que fornecem uma visão completa do fluxo de trabalho e suporte à tomada de decisões estratégicas.
+*Gestão Financeira:* Facilitar o processamento de cobranças e a emissão de notas fiscais, vinculando diretamente aos serviços prestados.
+*Transporte e Logística:* Proporcionar a coleta e entrega dos notebooks, garantindo conveniência e segurança para o cliente.
+*Comunicação com o Cliente:* Manter os clientes informados em tempo real sobre o status do reparo, promovendo transparência e satisfação.
+*Suporte Técnico:* Fornecer aos técnicos uma interface integrada com todas as informações necessárias para realizar os reparos com eficiência.
+*Gestão de Estoque e Compras:* Automatizar a gestão de estoque e suprimentos, garantindo a disponibilidade dos materiais necessários.
+*Integração Multissetorial:* Assegurar a integração entre todos os setores envolvidos, promovendo uma operação coesa e eficaz.
 
 ## Integrantes
 
 * Pedro Paulo Salman de Oliveira
 * João Victor dos Santos
 * Amanda Santiago Oliveira dos Santos
-* Nome completo do aluno 4
+* Ryan Vinicius Santos Morais
 
 ## Orientador
 
