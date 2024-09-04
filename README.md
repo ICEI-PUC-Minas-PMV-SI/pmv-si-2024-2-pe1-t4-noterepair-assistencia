@@ -12,9 +12,10 @@ O objetivo da NoteRepair é desenvolver uma plataforma integrada e automatizada 
 
 ## Integrantes
 
-* Pedro Paulo Salman de Oliveira
-* João Victor dos Santos
 * Amanda Santiago Oliveira dos Santos
+* João Victor dos Santos
+* Marcelo Freire Pereira de Souza
+* Pedro Paulo Salman de Oliveira
 * Ryan Vinicius Santos Morais
 
 ## Orientador
