@@ -34,13 +34,35 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+A solução da NoteRepair se propõe a atender tanto as necessidades dos usuários finais, que buscam um serviço de reparo simples e eficiente, quanto as necessidades da equipe interna, que precisa de ferramentas para otimizar seus processos e melhorar a comunicação com os clientes. Abaixo, estão detalhados os públicos-alvos:
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+#### 1. Usuários Domésticos
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+* **Descrição**: Indivíduos que possuem notebooks e necessitam de serviços de reparo.
+
+* **Características**:
+  * **Nível de conhecimento em tecnologia**: Variado, desde usuários com conhecimento básico até aqueles que não possuem familiaridade com tecnologia.
+  * **Necessidades**:
+    * Conserto de notebooks de forma rápida e eficiente.
+    * Processo de reparo fácil de entender e transparente.
+    * Comunicação clara e objetiva sobre o status do serviço e os custos envolvidos.
+
+* **Objetivos da NoteRepair em relação a este público:**
+  * Oferecer uma solução simples e intuitiva para que qualquer pessoa possa solicitar e acompanhar um reparo.
+  * Construir uma relação de confiança com o cliente, através da transparência e da qualidade do serviço.
+
+#### 2. Equipe Interna da NoteRepair
+
+* **Descrição**: Profissionais que trabalham diretamente na empresa, como técnicos e gestores.
+
+* **Características**:
+
+  * **Nível de conhecimento em tecnologia:** Alto, especialmente para os técnicos e médio para gestores.
+  * **Necessidades**:
+    * Ferramenta para comunicação eficiente com os clientes, informando sobre o status dos reparos e os serviços realizados.
+    * Sistema para gerenciar a carga de trabalho dos técnicos e acompanhar o desempenho da equipe.
+    * Ferramenta para analisar dados sobre os serviços realizados e identificar oportunidades de melhoria.
+* **Objetivos da NoteRepair em relação a este público:**
+  * Otimizar os processos internos, aumentando a eficiência e a produtividade da equipe.
+  * Melhorar a comunicação entre os técnicos e os clientes, reduzindo o tempo de resposta e aumentando a satisfação do cliente.
+  * Fornecer aos gestores as informações necessárias para tomar decisões estratégicas e acompanhar o desempenho da empresa.
