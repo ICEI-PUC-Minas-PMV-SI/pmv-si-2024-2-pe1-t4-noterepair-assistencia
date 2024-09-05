@@ -1,6 +1,8 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O processo de digitalização nas empresas brasileiras é uma tendência identificada pela Associação Brasileira de Desenvolvimento Indústrial que contabilizaou uma aumento do investimento nesta área em 24% das empresas. Contudo esse crescimento não se reflete nas micro e pequenas conforme pesquisa realizada pela FGV em 2023, 66% delas estão nos estágios iniciais de maturidade digital. Especialmente no segmento de tecnologia, essa inserção pode ser percebida como um diferencial importante porque aprimora métodos de gerenciamento. Em um mercado competitivo em em que 30% das pequenas empresas fecham antes de cinco anos, de acordo com o Sebrae, é fundamental superar métodos que se mostrem ineficientes, resultando em problemas, tais como: gerenciamento inadequado de pedidos e dados dos clientes, falta de transparência do processo, e uma experiência pouco conveniente para os usuários.
+
+Em meio a esse cenário surge uma solução inovadora, **NoteRepair**. Nossa proposta visa transformar a operação dos serviços de ponta a ponta, uma proposta que beneficia toda a cadeia, desde as empresas até os consumidores finais. Algumas das maneiras de abordar este problema são por exemplo: uma plataforma intuitiva e transparente com cada etapa do processo de reparo, segurança e comodidade ao cliente, por meio de um excelente atendimento, coleta e entrega do equipamento no conforto da sua casa e muito mais.
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
