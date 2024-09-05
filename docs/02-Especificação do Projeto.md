@@ -117,3 +117,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 | 04   | Não será permitido utilizar tecnologias não compatíveis com dispositivos móveis.                                   |
 | 05   | O desenvolvimento é único e exclusivamente através de plataforma web, não havendo a possibilidade de desenvolver um aplicativo. |
 | 06   | O sistema não pode armazenar ou manipular um banco de dados.                                                       |
+
+## Diagrama de Contexto
+
+![Diagrama sem nome](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-2-pe1-t4-noterepair-assistencia/blob/main/docs/img/Diagrama%20sem%20nome-1724801870840.drawio.png?raw=true)
