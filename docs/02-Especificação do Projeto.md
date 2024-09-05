@@ -118,7 +118,7 @@ João Martins percebe a necessidade de uma solução tecnológica que permita ot
 | Solicitar reparo         | US-01         | Como cliente, quero solicitar o reparo do meu notebook através da plataforma online, para evitar deslocamentos até a loja. | Cliente        |
 | Acompanhar status        | US-02         | Como cliente, quero acompanhar o status do meu notebook em tempo real durante o processo de reparo, para saber quando ele estará pronto. | Cliente        |
 | Gerenciar técnicos       | US-03         | Como gerente, quero poder distribuir as tarefas de reparo entre os técnicos de forma eficiente, para otimizar o tempo de resposta. | Gerente        |
-| Realizar diagnóstico     | US-04         | Como técnico, quero ter uma ferramenta que facilite o diagnóstico de falhas de hardware e software, para agilizar o processo de reparo. | Técnico        |
+| Realizar diagnóstico     | US-04         | Como técnico, quero ter uma ferramenta que facilite a triagem, para agilizar o processo de reparo. | Técnico        |
 | Visualizar fila de reparo | US-05         | Como técnico, quero poder visualizar a fila de notebooks a serem reparados, para priorizar de acordo com a urgência dos casos. | Técnico        |
 | Emitir orçamento         | US-06         | Como cliente, quero receber um orçamento detalhado antes do início do reparo, para saber o custo antecipadamente.      | Cliente        |
 | Agendar coleta e entrega | US-07         | Como cliente, quero agendar a coleta e a entrega do meu notebook diretamente pela plataforma, para maior conveniência.  | Cliente        |
