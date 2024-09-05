@@ -22,6 +22,31 @@ Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos 
 >
 Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
+## Persona 2
+
+Nome: Victor Hugo
+Idade: 22 anos
+Profissão: Marketing Digital
+Estado Civil: Casado
+
+#### Formação Acadêmica:
+
+#### Graduação: Marketing
+
+
+#### Perfil Profissional:
+Victor trabalha com marketing digital, utilizando seu equipamento pessoal também para o trabalho. Apesar de entender razoavelmente sobre software, porque utiliza o computador diariamente para trabalhar, não tem muito conhecimento de hardware. Por isso, vez ou outra, precisa de suporte para seu equipamento.
+
+#### Desafios Atuais:
+Como trabalha com marketing digital, utiliza mais de um notebook e diversos periféricos, que precisam estar sempre funcionando. Para ele, é importante ter transparência em relação a todo o processo de manutenção, pois assim consegue planejar soluções temporárias quando um de seus notebooks está na assistência.
+
+Além disso, ele trabalha em modelo home office, ficando ocupado durante todo horário comercial, então ter uma assistência que possa buscar seu equipamento em sua residência e depois devolvê-lo facilita para que ele não perca horas de trabalho se deslocando até uma assistência.
+
+#### Necessidades Identificadas:
+Resolver possíveis problemas envolvendo o hardware de seus notebooks pessoais, ter transparência no processo de manutenção e agilidade na retirada e entrega.
+
+
+
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
