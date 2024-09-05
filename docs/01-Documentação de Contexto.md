@@ -55,29 +55,29 @@ A falta de relatórios detalhados impede uma visão clara do desempenho, dificul
 ## Objetivos
 O principal objetivo da NoteRepair é desenvolver uma plataforma integrada que otimize todo o processo de reparo de notebooks, desde o cadastro do cliente até a entrega do equipamento reparado, garantindo transparência, eficiência e conveniência. Para isso, a solução será projetada para cumprir os seguintes objetivos específicos:
 
-* Cadastro e Solicitação de Serviço: Facilitar o cadastro de novos clientes e permitir a solicitação de reparo de forma intuitiva e simplificada, garantindo que todas as informações necessárias sejam coletadas e armazenadas de maneira segura.
+* **Cadastro e Solicitação de Serviço:** Facilitar o cadastro de novos clientes e permitir a solicitação de reparo de forma intuitiva e simplificada, garantindo que todas as informações necessárias sejam coletadas e armazenadas de maneira segura.
 
-* Encaminhamento de Pedidos:  Gerenciar o processamento dos pedidos de reparo, desde a autorização inicial até a distribuição das tarefas entre os técnicos responsáveis. A plataforma permitirá o acompanhamento detalhado de cada etapa, incluindo o controle de estoque de peças e a movimentação de componentes necessários para o conserto.
+* **Encaminhamento de Pedidos:**  Gerenciar o processamento dos pedidos de reparo, desde a autorização inicial até a distribuição das tarefas entre os técnicos responsáveis. A plataforma permitirá o acompanhamento detalhado de cada etapa, incluindo o controle de estoque de peças e a movimentação de componentes necessários para o conserto.
 
-* Gerenciamento de Permissões e Recursos: Integrar um sistema de gerenciamento que permita a alocação eficiente de recursos, como peças de reposição e equipamentos, além de garantir que os técnicos tenham as permissões adequadas para acessar as informações e realizar as tarefas necessárias.
+* **Gerenciamento de Permissões e Recursos:** Integrar um sistema de gerenciamento que permita a alocação eficiente de recursos, como peças de reposição e equipamentos, além de garantir que os técnicos tenham as permissões adequadas para acessar as informações e realizar as tarefas necessárias.
 
-* Emissão de Relatórios: Oferecer a geração automática de relatórios, com dois enfoques distintos:
+* **Emissão de Relatórios:** Oferecer a geração automática de relatórios, com dois enfoques distintos:
 
-    * Relatórios Externos: Fornecer ao cliente um resumo claro e transparente sobre o andamento do reparo, incluindo status atual, peças utilizadas, prazos previstos e custos envolvidos, garantindo uma comunicação contínua e eficiente.
+    * **Relatórios Externos:** Fornecer ao cliente um resumo claro e transparente sobre o andamento do reparo, incluindo status atual, peças utilizadas, prazos previstos e custos envolvidos, garantindo uma comunicação contínua e eficiente.
 
-    * Relatórios Internos: Proporcionar relatórios, voltados para os técnicos e a gerência, cobrindo aspectos como fluxo de trabalho, movimentação de estoque, desempenho de tarefas e métricas de eficiência. Esses relatórios serão essenciais para a tomada de decisões estratégicas e otimização da operação interna.
+    * **Relatórios Internos:** Proporcionar relatórios, voltados para os técnicos e a gerência, cobrindo aspectos como fluxo de trabalho, movimentação de estoque, desempenho de tarefas e métricas de eficiência. Esses relatórios serão essenciais para a tomada de decisões estratégicas e otimização da operação interna.
 
-* Transporte e Logística: Oferecer um serviço de transporte para coleta e entrega dos notebooks, proporcionando comodidade ao cliente e garantindo a segurança do equipamento em trânsito. A plataforma coordenará todo o processo logístico, desde a solicitação do transporte até a confirmação da entrega.
+* **Transporte e Logística:** Oferecer um serviço de transporte para coleta e entrega dos notebooks, proporcionando comodidade ao cliente e garantindo a segurança do equipamento em trânsito. A plataforma coordenará todo o processo logístico, desde a solicitação do transporte até a confirmação da entrega.
 
-* Comunicação Ativa com o Cliente: Implementar um sistema de comunicação contínua com o cliente, mantendo-o informado sobre o status do reparo em tempo real. O cliente terá acesso a atualizações sobre cada fase do processo, desde o diagnóstico até a finalização do serviço, aumentando a transparência e a satisfação.
+* **Comunicação Ativa com o Cliente:** Implementar um sistema de comunicação contínua com o cliente, mantendo-o informado sobre o status do reparo em tempo real. O cliente terá acesso a atualizações sobre cada fase do processo, desde o diagnóstico até a finalização do serviço, aumentando a transparência e a satisfação.
 
-* Acompanhamento e Feedback: Permitir que os clientes acompanhem todo o processo de reparo através da plataforma, e incentivar o feedback após a conclusão do serviço, para continuamente melhorar a qualidade do atendimento e dos serviços prestados.
+* **Acompanhamento e Feedback:** Permitir que os clientes acompanhem todo o processo de reparo através da plataforma, e incentivar o feedback após a conclusão do serviço, para continuamente melhorar a qualidade do atendimento e dos serviços prestados.
 
-* Suporte ao Setor Técnico: Facilitar o trabalho dos técnicos por meio de uma interface integrada, dados específicos do produto do cliente durante o atendimento e detalhes técnicos dos equipamentos.
+* **Suporte ao Setor Técnico:** Facilitar o trabalho dos técnicos por meio de uma interface integrada, dados específicos do produto do cliente durante o atendimento e detalhes técnicos dos equipamentos.
 
-* Gestão de Estoque e Compras: Integrar o setor de suprimentos com a plataforma por meio de uma comunicação efetiva e simplificada, automatizando a gestão de estoque de peças e insumos, e vinculando o setor de compras para assegurar que os materiais necessários estejam sempre disponíveis, evitando atrasos no processo de reparo.
+* **Gestão de Estoque e Compras:** Integrar o setor de suprimentos com a plataforma por meio de uma comunicação efetiva e simplificada, automatizando a gestão de estoque de peças e insumos, e vinculando o setor de compras para assegurar que os materiais necessários estejam sempre disponíveis, evitando atrasos no processo de reparo.
 
-* Integração Multissetorial: Garantir a integração de todos os setores envolvidos, como financeiro, suprimentos e gerência técnica, por meio de uma comunicação interna bem simplificada. A plataforma centralizará a troca de informações, facilitando a colaboração entre as equipes e resultando em uma operação mais eficiente e coesa.
+* **Integração Multissetorial:** Garantir a integração de todos os setores envolvidos, como financeiro, suprimentos e gerência técnica, por meio de uma comunicação interna bem simplificada. A plataforma centralizará a troca de informações, facilitando a colaboração entre as equipes e resultando em uma operação mais eficiente e coesa.
 
 Com esses objetivos, a NoteRepair visa oferecer um serviço completo e inovador, que não só melhora a eficiência interna da empresa, mas também aprimora a experiência do cliente, promovendo confiança e satisfação.
 
