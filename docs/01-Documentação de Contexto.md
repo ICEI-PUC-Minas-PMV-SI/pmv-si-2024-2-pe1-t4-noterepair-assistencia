@@ -25,12 +25,13 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Decidimos criar a NoteRepair para promover boas práticas de negócio em alinhamento com as ODS 8 E 12, fomentando o crescimento econômico, a inovação e garantindo padrões sustentáveis de consumo e produção.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Dijam Panigrahi, cofundador e COO da GridRaster Inc Dijam Panigrahi, co-fundador e COO da GridRaster Inc., fornecedora líder de plataformas AR/VR baseadas em nuvem que potencializam experiências AR/VR atraentes e de alta qualidade em dispositivos móveis para empresas, diz que “À medida que os fabricantes se esforçam para manter altos padrões de qualidade e serviço, as complexidades do manuseio de reparos podem se tornar um gargalo, levando a atrasos, aumento de custos e insatisfação do cliente” 
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Antes era comum processos lineares e manuais, desde o registro de entrada de aparelhos até a compra de peças sobressalentes, o que resultava em prazos longos e maiores custos operacionais. ​fonte
+
+Com o novo software, além de reduzir o lixo gerado, trazemos diversos benefícios ao negócio, como a otimização do fluxo de trabalho, redução de erros no processo de recepção, manutenção e envio de notebooks, além de melhorias na comunicação interna e externa. Ademais, o incremento da transparência em relação aos serviços prestados, com uma plataforma clara sobre todo o fluxo do processo, pode ser entendido como um diferencial competitivo para a empresa, adequando o negócio à uma realidade mercado vinculado à responsabilidade social, de conservação e consumo responsável. Além disso, a NoteRepair promove um serviço de coleta e entrega ponta a ponta, não sendo necessário que o cliente se desloque até uma unidade técnica. E, por último, com gestão visual e mapeamento dos processos, a carga de trabalho é equilibrada pelos gestores proporcionando um processo mais ágil e efetivo.
 
 ## Público-Alvo
 
