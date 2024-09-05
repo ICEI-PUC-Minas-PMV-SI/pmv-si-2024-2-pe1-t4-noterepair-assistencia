@@ -33,6 +33,12 @@ Antes era comum processos lineares e manuais, desde o registro de entrada de apa
 
 Com o novo software, além de reduzir o lixo gerado, trazemos diversos benefícios ao negócio, como a otimização do fluxo de trabalho, redução de erros no processo de recepção, manutenção e envio de notebooks, além de melhorias na comunicação interna e externa. Ademais, o incremento da transparência em relação aos serviços prestados, com uma plataforma clara sobre todo o fluxo do processo, pode ser entendido como um diferencial competitivo para a empresa, adequando o negócio à uma realidade mercado vinculado à responsabilidade social, de conservação e consumo responsável. Além disso, a NoteRepair promove um serviço de coleta e entrega ponta a ponta, não sendo necessário que o cliente se desloque até uma unidade técnica. E, por último, com gestão visual e mapeamento dos processos, a carga de trabalho é equilibrada pelos gestores proporcionando um processo mais ágil e efetivo.
 
+> **Referências**:
+> - [ODS e Agenda 2030](https://www.google.com/url?q=https://www.pactoglobal.org.br/ods-e-agenda-2030/&sa=D&source=docs&ust=1725406076246101&usg=AOvVaw20xG6ekVgHqghO7ERS-_d-)
+> - [Como a inovação tecnológica está modernizando os reparos de produtos](https://www.google.com/url?q=https://www.supplychainbrain.com/blogs/1-think-tank/post/40174-how-tech-innovation-is-modernizing-product-repairs-in-the-supply-chain&sa=D&source=docs&ust=1725406113217570&usg=AOvVaw25cuvGG3HMpmHDn3NY-0nj))
+> - [Industrial Electronics Repair](https://trsautomation.com/services/industrial-electronics-repair/)
+> - [O DESCARTE DE RESÍDUOS ELETROELETRÔNICOS PELAS EMPRESAS DE ASSISTÊNCIA TÉCNICA SOB A PERSPECTIVA DO CONCEITO DE GREEN IT ]((https://ecoinovar.com.br/cd2013/arquivos/artigos/ECO214.pdf))
+
 ## Público-Alvo
 
 A solução da NoteRepair se propõe a atender tanto as necessidades dos usuários finais, que buscam um serviço de reparo simples e eficiente, quanto as necessidades da equipe interna, que precisa de ferramentas para otimizar seus processos e melhorar a comunicação com os clientes. Abaixo, estão detalhados os públicos-alvos:
