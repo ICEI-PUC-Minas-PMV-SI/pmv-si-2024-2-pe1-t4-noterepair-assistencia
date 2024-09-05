@@ -2,9 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Nesta seção, detalhamos a definição do problema e a proposta de solução para a **NoteRepair**, uma empresa especializada em manutenção de notebooks. Utilizamos diversas técnicas, como **Personas**, **Histórias de Usuários**, **Requisitos Funcionais**, **Requisitos Não Funcionais** e **Restrições do Projeto**, para garantir que a solução proposta atenda às necessidades dos usuários e ao crescimento contínuo da NoteRepair, considerando as limitações práticas enfrentadas pela empresa. A NoteRepair, enfrentando desafios de gestão e eficiência com o aumento da demanda por serviços de manutenção, busca aprimorar seus processos internos e o atendimento ao cliente, equilibrando a conveniência para os usuários com a otimização das operações. Essas técnicas nos permitem entender melhor os perfis de usuários e suas interações com o sistema, garantindo que a solução esteja alinhada tanto com as expectativas dos clientes quanto com os objetivos de crescimento da empresa.
 
 ## Personas
 
