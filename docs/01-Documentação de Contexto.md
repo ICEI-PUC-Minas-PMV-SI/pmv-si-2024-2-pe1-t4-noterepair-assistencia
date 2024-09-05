@@ -5,16 +5,52 @@ O processo de digitalização nas empresas brasileiras é uma tendência identif
 Em meio a esse cenário surge uma solução inovadora, **NoteRepair**. Nossa proposta visa transformar a operação dos serviços de ponta a ponta, uma proposta que beneficia toda a cadeia, desde as empresas até os consumidores finais. Algumas das maneiras de abordar este problema são por exemplo: uma plataforma intuitiva e transparente com cada etapa do processo de reparo, segurança e comodidade ao cliente, por meio de um excelente atendimento, coleta e entrega do equipamento no conforto da sua casa e muito mais.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Em um ambiente onde a eficiência e a confiança são cruciais, as empresas de reparo de eletrônicos enfrentam desafios que afetam diretamente sua capacidade de competir e oferecer serviços de alta qualidade. Abaixo estão os principais problemas identificados, suportados por dados reais:
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+### 1. Falta de Transparência no Processo de Manutenção e Reparo
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+**Contextualização:**  
+A transparência é essencial para garantir a confiança do cliente em serviços de reparo, mas muitas empresas ainda falham em fornecer informações claras sobre as etapas envolvidas.
+
+**Dados Reais:**  
+O relatório da Edelman Trust Barometer de 2023 revela que 77% dos consumidores da Geração Z acreditam que é mais importante do que nunca confiar nas marcas que compram, com uma expectativa crescente de transparência e comunicação contínua após a compra inicial​ (Edelman). Isso indica que uma falta de transparência pode resultar em perda de confiança e lealdade por parte dos clientes, especialmente os mais jovens.
+
+**Impacto:**  
+Isso leva a uma percepção negativa, com clientes temendo fraudes e a perda de seus equipamentos.
+
+### 2. Falta de Comodidade para o Cliente
+
+**Contextualização:**  
+Em um mercado onde a conveniência é um fator decisivo para a satisfação do cliente, é fundamental oferecer serviços que minimizem o esforço do consumidor.
+
+**Dados Reais:**  
+Conforme o relatório da Edelman, 68% dos consumidores acreditam que as ações de marca que promovem confiança influenciam onde e como compram. A falta de serviços convenientes, como coleta e entrega, pode ser vista como uma falha crítica na experiência do cliente ​(Edelman).
+
+**Impacto:**  
+A ausência de serviços de logística dedicados força os clientes a se deslocarem até as unidades técnicas, resultando em insatisfação e menor fidelização.
+
+### 3. Comunicação Deficiente com o Cliente
+
+**Contextualização:**  
+Manter uma comunicação clara e contínua durante o processo de reparo é vital para assegurar a satisfação do cliente.
+
+**Dados Reais:**  
+O estudo de confiança do Edelman Trust Barometer de 2023 também destacou que 64% dos consumidores afirmam que a clareza na comunicação sobre políticas de privacidade aumenta sua confiança nas empresas. Isso sugere que a comunicação clara e contínua é essencial para manter a confiança dos clientes durante o processo de reparo ​(Edelman).
+
+**Impacto:**  
+A falta de comunicação ativa e clara resulta em frustração e perda de confiança no serviço prestado.
+
+### 4. Dificuldade na Emissão de Relatórios e Análise de Desempenho
+
+**Contextualização:**  
+Relatórios detalhados são essenciais para que a gerência monitore o desempenho operacional e implemente melhorias.
+
+**Dados Reais:**  
+A importância da clareza e do acompanhamento contínuo das operações é sublinhada no relatório da Edelman, onde se destaca que as ações das marcas que promovem a confiança do consumidor têm um impacto direto na lealdade e na propensão a recomendar a empresa para outros consumidores ​(Edelman).
+
+**Impacto:**  
+A falta de relatórios detalhados impede uma visão clara do desempenho, dificultando a identificação de gargalos e a implementação de melhorias.
 
 ## Objetivos
 O principal objetivo da NoteRepair é desenvolver uma plataforma integrada que otimize todo o processo de reparo de notebooks, desde o cadastro do cliente até a entrega do equipamento reparado, garantindo transparência, eficiência e conveniência. Para isso, a solução será projetada para cumprir os seguintes objetivos específicos:
