@@ -25,8 +25,11 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 ## Persona 2
 
 Nome: Victor Hugo
+
 Idade: 22 anos
+
 Profissão: Marketing Digital
+
 Estado Civil: Casado
 
 #### Formação Acadêmica:
