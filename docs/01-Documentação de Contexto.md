@@ -87,35 +87,4 @@ Com o novo software, além de reduzir o lixo gerado, trazemos diversos benefíci
 
 ## Público-Alvo
 
-A solução da NoteRepair se propõe a atender tanto as necessidades dos usuários finais, que buscam um serviço de reparo simples e eficiente, quanto as necessidades da equipe interna, que precisa de ferramentas para otimizar seus processos e melhorar a comunicação com os clientes. Abaixo, estão detalhados os públicos-alvos:
-
-#### 1. Usuários Domésticos
-
-* **Descrição**: Indivíduos que possuem notebooks e necessitam de serviços de reparo.
-
-* **Características**:
-  * **Nível de conhecimento em tecnologia**: Variado, desde usuários com conhecimento básico até aqueles que não possuem familiaridade com tecnologia.
-  * **Necessidades**:
-    * Conserto de notebooks de forma rápida e eficiente.
-    * Processo de reparo fácil de entender e transparente.
-    * Comunicação clara e objetiva sobre o status do serviço e os custos envolvidos.
-
-* **Objetivos da NoteRepair em relação a este público:**
-  * Oferecer uma solução simples e intuitiva para que qualquer pessoa possa solicitar e acompanhar um reparo.
-  * Construir uma relação de confiança com o cliente, através da transparência e da qualidade do serviço.
-
-#### 2. Equipe Interna da NoteRepair
-
-* **Descrição**: Profissionais que trabalham diretamente na empresa, como técnicos e gestores.
-
-* **Características**:
-
-  * **Nível de conhecimento em tecnologia:** Alto, especialmente para os técnicos e médio para gestores.
-  * **Necessidades**:
-    * Ferramenta para comunicação eficiente com os clientes, informando sobre o status dos reparos e os serviços realizados.
-    * Sistema para gerenciar a carga de trabalho dos técnicos e acompanhar o desempenho da equipe.
-    * Ferramenta para analisar dados sobre os serviços realizados e identificar oportunidades de melhoria.
-* **Objetivos da NoteRepair em relação a este público:**
-  * Otimizar os processos internos, aumentando a eficiência e a produtividade da equipe.
-  * Melhorar a comunicação entre os técnicos e os clientes, reduzindo o tempo de resposta e aumentando a satisfação do cliente.
-  * Fornecer aos gestores as informações necessárias para tomar decisões estratégicas e acompanhar o desempenho da empresa.
+A NoteRepair, como solução, visa atender desde assistências técnicas à usuários domésticos que busquem conserto para seus notebooks. Isso será feito independentemente do nível de conhecimento em tecnologia do indivíduo, visto que, o processo será direto o suficiente afim de que seja fácil pra qualquer pessoa entender os processos, os custos e sua justificativa. A nível interno solução também será usada internamente pelos técnicos e gestores da NoteRepair para, respectivamente, comunicação com o cliente (informação dos status e do serviço) e análise e controle da carga de trabalho para os funcionários técnicos.
