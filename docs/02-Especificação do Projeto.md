@@ -52,21 +52,17 @@ Resolver possíveis problemas envolvendo o hardware de seus notebooks pessoais, 
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+| User Story              | User Story ID | Story                                                                                                                | Ator Primário |
+|-------------------------|---------------|----------------------------------------------------------------------------------------------------------------------|---------------|
+| Solicitar reparo         | US-01         | Como cliente, quero solicitar o reparo do meu notebook através da plataforma online, para evitar deslocamentos até a loja. | Cliente        |
+| Acompanhar status        | US-02         | Como cliente, quero acompanhar o status do meu notebook em tempo real durante o processo de reparo, para saber quando ele estará pronto. | Cliente        |
+| Gerenciar técnicos       | US-03         | Como gerente, quero poder distribuir as tarefas de reparo entre os técnicos de forma eficiente, para otimizar o tempo de resposta. | Gerente        |
+| Realizar diagnóstico     | US-04         | Como técnico, quero ter uma ferramenta que facilite o diagnóstico de falhas de hardware e software, para agilizar o processo de reparo. | Técnico        |
+| Visualizar fila de reparo | US-05         | Como técnico, quero poder visualizar a fila de notebooks a serem reparados, para priorizar de acordo com a urgência dos casos. | Técnico        |
+| Emitir orçamento         | US-06         | Como cliente, quero receber um orçamento detalhado antes do início do reparo, para saber o custo antecipadamente.      | Cliente        |
+| Agendar coleta e entrega | US-07         | Como cliente, quero agendar a coleta e a entrega do meu notebook diretamente pela plataforma, para maior conveniência.  | Cliente        |
+| Gerenciar estoque        | US-08         | Como gerente, quero controlar o estoque de peças e componentes usados nos reparos, para evitar atrasos por falta de material. | Gerente        |
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
