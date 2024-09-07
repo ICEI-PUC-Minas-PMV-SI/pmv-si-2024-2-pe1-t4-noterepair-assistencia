@@ -1,67 +1,53 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
 Nesta seção, detalhamos a definição do problema e a proposta de solução para a **NoteRepair**, uma empresa especializada em manutenção de notebooks. Utilizamos diversas técnicas, como **Personas**, **Histórias de Usuários**, **Requisitos Funcionais**, **Requisitos Não Funcionais** e **Restrições do Projeto**, para garantir que a solução proposta atenda às necessidades dos usuários e ao crescimento contínuo da NoteRepair, considerando as limitações práticas enfrentadas pela empresa. A NoteRepair, enfrentando desafios de gestão e eficiência com o aumento da demanda por serviços de manutenção, busca aprimorar seus processos internos e o atendimento ao cliente, equilibrando a conveniência para os usuários com a otimização das operações. Essas técnicas nos permitem entender melhor os perfis de usuários e suas interações com o sistema, garantindo que a solução esteja alinhada tanto com as expectativas dos clientes quanto com os objetivos de crescimento da empresa.
 
 ## Personas
 
-## Persona 1
+### Persona 1
 Nome: Rosangela Santos
 
 - **Idade:** 19 anos
 - **Profissão:** Estudante universitária
 - **Conhecimento básico em informática**
 
-## Formação Acadêmica:
+**Formação Acadêmica:**
 - **Graduação:** Administração em andamento
 - **Nível Médio:** Completo
 - **Capacitações Técnicas e Cursos Complementares:** Não possui
 
-## Perfil Profissional
-Joana é uma jovem estudante do terceiro período do curso de Administração. Ela utiliza o computador para realizar atividades da universidade. Como faz o curso à noite, a estudante atua como estagiária em uma empresa de administração de imóveis durante meio expediente. Seu dia a dia é muito atribulado, pois tem os três turnos ocupados com atividades da universidade e do seu estágio. Como é bolsista, ela tem uma grande responsabilidade em manter seu rendimento acadêmico para viabilizar sua permanência no curso. Sua remuneração do estágio é sua principal fonte de renda.
+**Perfil Profissional:**
+Rosangela é uma jovem estudante do terceiro período do curso de Administração. Ela utiliza o computador para realizar atividades da universidade. Como faz o curso à noite, atua como estagiária em uma empresa de administração de imóveis durante meio expediente. Seu dia a dia é muito atribulado, pois tem os três turnos ocupados com atividades da universidade e do seu estágio. Como é bolsista, ela tem grande responsabilidade em manter seu rendimento acadêmico para viabilizar sua permanência no curso. Sua remuneração do estágio é sua principal fonte de renda.
 
-## Desafios Atuais
-Além de utilizar seu notebook para realizar os trabalhos da universidade, pesquisas e estudo, sua principal tarefa é acompanhar os clientes no estágio através de uma plataforma web e atendê-los de forma remota, combinando trabalho presencial no escritório, acompanhamento no local dos imóveis e atendimento remoto via WhatsApp Web e a plataforma da administradora em que atua.
+**Desafios Atuais:**
+Rosangela utiliza seu notebook para realizar trabalhos da universidade, pesquisas e estudo. Sua principal tarefa no estágio é acompanhar os clientes através de uma plataforma web e atendê-los de forma remota, combinando trabalho presencial no escritório, acompanhamento no local dos imóveis e atendimento remoto via WhatsApp Web e a plataforma da administradora em que atua.
 
-## Necessidades Identificadas
-Para Joana, as principais necessidades estão relacionadas ao preço do reparo, já que tem uma renda limitada e precisa de opções de reparo mais acessíveis. Além disso, precisa organizar seu dia a dia para obter seu computador o mais rápido possível, pois ele faz parte de várias etapas de sua vida. Assim, transparência e confiabilidade em relação aos prazos são muito importantes ao escolher uma manutenção de notebooks.
+**Necessidades Identificadas:**
+As principais necessidades de Rosangela estão relacionadas ao preço do reparo, já que tem uma renda limitada e precisa de opções acessíveis. Além disso, precisa de transparência e confiabilidade nos prazos, pois seu notebook faz parte de várias etapas importantes do seu dia a dia.
 
-Ela não entende muito de informática, por isso tem uma desconfiança natural em relação à descrição dos serviços demandados. A possibilidade de recolhimento e entrega do notebook no processo de reparo é um diferencial fundamental devido ao seu cotidiano ocupado, assim como o acompanhamento das etapas do conserto para que ela possa se programar para utilizar computadores de uso coletivo na universidade ou na empresa onde trabalha.
-
-## Persona 2
+### Persona 2
 Nome: Victor Hugo
 
 - **Idade:** 22 anos
 - **Profissão:** Marketing Digital
 - **Estado Civil:** Casado
 
-## Formação Acadêmica:
+**Formação Acadêmica:**
 - **Graduação:** Marketing
 
-## Perfil Profissional
-Victor é um profissional de 22 anos que trabalha com marketing digital, utilizando seu equipamento pessoal para desempenhar suas funções. Ele possui conhecimentos intermediários em tecnologia, entendendo razoavelmente sobre software, mas tem pouco conhecimento de hardware. Victor utiliza mais de um notebook e diversos periféricos que precisam estar sempre funcionando para garantir a continuidade de seu trabalho. Devido ao seu modelo de trabalho em home office, ele valoriza a eficiência e a praticidade no suporte técnico para seus equipamentos.
+**Perfil Profissional:**
+Victor trabalha com marketing digital e utiliza seu equipamento pessoal para desempenhar suas funções. Ele possui conhecimentos intermediários em tecnologia, entendendo razoavelmente sobre software, mas tem pouco conhecimento de hardware. Utiliza mais de um notebook e diversos periféricos que precisam estar sempre funcionando para garantir a continuidade do trabalho. Devido ao home office, valoriza a eficiência e a praticidade no suporte técnico.
 
-## Desafios Atuais
-- **Transparência:** Victor necessita de transparência em todo o processo de manutenção dos seus dispositivos. Isso permite que ele planeje soluções temporárias quando um de seus notebooks está na assistência técnica.
-- **Deslocamento:** Trabalhando em home office, Victor prefere uma assistência que possa buscar e entregar seus equipamentos diretamente em sua residência. Isso evita a perda de horas de trabalho que seriam gastas em deslocamentos até uma assistência técnica física.
+**Desafios Atuais:**
+- **Transparência:** Victor necessita de transparência no processo de manutenção de seus dispositivos, para planejar soluções temporárias.
+- **Deslocamento:** Victor prefere uma assistência que possa buscar e entregar seus equipamentos em sua residência, evitando perda de tempo com deslocamentos.
 
-## Necessidades Identificadas
-- **Resolução de Problemas de Hardware:** Victor busca solucionar possíveis problemas relacionados ao hardware de seus notebooks pessoais de maneira eficiente.
-- **Transparência no Processo de Manutenção:** Ele precisa acompanhar claramente o andamento das manutenções para se organizar melhor.
-- **Agilidade na Retirada e Entrega:** A possibilidade de coleta e devolução dos equipamentos em sua residência é fundamental para minimizar interrupções no seu trabalho.
+**Necessidades Identificadas:**
+- **Resolução de Problemas de Hardware:** Busca solucionar possíveis problemas de hardware de maneira eficiente.
+- **Transparência no Processo de Manutenção:** Necessita acompanhar o andamento das manutenções para se organizar melhor.
+- **Agilidade na Retirada e Entrega:** A coleta e devolução dos equipamentos é fundamental para evitar interrupções no trabalho.
 
-## Relação com a Tecnologia
-- **Conhecimentos Intermediários:** Victor possui um bom entendimento sobre software, facilitando a utilização de ferramentas online para solicitar serviços.
-- **Limitações em Hardware:** Sua falta de conhecimento aprofundado em hardware aumenta a dependência de serviços de manutenção confiáveis.
-- **Facilidade em Solicitar Serviços Online:** Ele não enfrenta dificuldades para utilizar a internet e solicitar serviços técnicos através de plataformas digitais.
-
-## Como a Solução Pode Ajudá-lo
-- **Transparência no Processo de Manutenção:** Mantendo Victor informado sobre cada etapa, facilitando seu planejamento.
-- **Prazos Atualizados:** Fornecendo informações precisas sobre os tempos de manutenção para melhor organização.
-- **Acompanhamento da Retirada e Entrega:** Permitindo que Victor acompanhe todo o processo logístico, garantindo comodidade e eficiência.
-
-## Persona 3
+### Persona 3
 Nome: Chico Lopes
 
 - **Idade:** 42 anos
@@ -69,20 +55,17 @@ Nome: Chico Lopes
 - **Empresa:** NoteRepair
 - **Tempo de Experiência:** 12 anos
 
-## Formação Acadêmica:
+**Formação Acadêmica:**
 - **Graduação:** Administração
 - **Pós-graduação:** Liderança e Gestão de Pessoas
 
-## Perfil Profissional
-Chico Lopes é um profissional com mais de 12 anos de experiência na área de gestão de manutenção, atuando como gerente da NoteRepair desde sua fundação. Sua formação em Administração e pós-graduação em Liderança e Gestão de Pessoas, aliada à sua experiência prática, o tornam um profissional qualificado para liderar equipes e otimizar processos.
+**Perfil Profissional:**
+Chico Lopes é gerente da NoteRepair e possui vasta experiência em gestão. Ele enfrenta desafios na otimização dos processos da empresa, que não acompanharam o crescimento da demanda.
 
-## Desafios Atuais
-Apesar de sua vasta experiência, Chico enfrenta desafios significativos em seu dia a dia. O crescimento contínuo da NoteRepair não foi acompanhado por uma evolução correspondente nos processos internos da empresa. A falta de recursos e a estagnação dos processos de gestão têm gerado sobrecarga de trabalho e frustração, impedindo Chico de alcançar todo o seu potencial.
+**Desafios Atuais:**
+Chico busca uma solução que o auxilie a ter uma visão clara dos processos de manutenção, otimizar o fluxo de trabalho e melhorar a alocação de recursos.
 
-## Necessidades Identificadas
-Chico busca uma solução que o auxilie a ter uma visão mais clara e completa dos processos de manutenção da NoteRepair. Ele deseja identificar gargalos, otimizar o fluxo de trabalho e melhorar a alocação de recursos. Além disso, busca uma ferramenta que permita visualizar de forma clara a situação dos processos de manutenção e/ou reparo e também como estão alocados seus técnicos.
-
-## Persona 4
+### Persona 4
 Nome: João Martins
 
 - **Idade:** 35 anos
@@ -90,25 +73,17 @@ Nome: João Martins
 - **Empresa:** NoteRepair
 - **Tempo de Experiência:** Mais de 10 anos
 
-## Formação Acadêmica:
+**Formação Acadêmica:**
 - **Graduação:** Tecnologia da Informação
 - **Curso Técnico:** Técnico em eletrônica
 - **Certificações:** Certificações adicionais em reparo de hardware e software
 
-## Perfil Profissional
-João Martins é um técnico altamente qualificado, especializado na manutenção e reparo de notebooks. Com uma década de experiência na NoteRepair, João se destaca por sua habilidade precisa em diagnosticar e solucionar problemas em dispositivos eletrônicos. Sua expertise é reconhecida tanto por colegas quanto por clientes, devido à sua capacidade de lidar com uma ampla gama de desafios técnicos, desde falhas de hardware até questões complexas de software.
+**Perfil Profissional:**
+João Martins é um técnico com mais de 10 anos de experiência, especializado na manutenção de notebooks, enfrentando desafios operacionais devido à falta de ferramentas adequadas para otimizar seu fluxo de trabalho.
 
-## Desafios Atuais
-Apesar de sua vasta experiência e competência, João enfrenta dificuldades significativas em seu ambiente de trabalho. O crescimento contínuo da demanda por serviços de manutenção na NoteRepair não foi acompanhado por uma evolução correspondente nos processos internos da empresa. Essa estagnação resultou em ineficiências operacionais que impactam negativamente tanto a produtividade de João quanto a qualidade do serviço prestado aos clientes.
+---
 
-João também se vê frequentemente sobrecarregado devido à falta de ferramentas adequadas para gerenciar suas tarefas diárias. Ele percebe que a ausência de um sistema eficaz para organizar e priorizar o fluxo de trabalho gera atrasos e aumenta o tempo de espera para os clientes, o que, por sua vez, contribui para o seu estresse e frustração no dia a dia.
-
-## Necessidades Identificadas
-João Martins percebe a necessidade de uma solução tecnológica que permita otimizar a distribuição de tarefas, melhorar a visualização e o acompanhamento das manutenções em andamento, dos status das peças solicitadas e reduzir o tempo de resposta para os clientes. Ele procura uma ferramenta que integre todas essas funcionalidades de forma eficiente, permitindo-lhe gerenciar seu trabalho de maneira mais organizada e eficaz, com o objetivo de manter a alta qualidade dos serviços da NoteRepair e melhorar sua própria satisfação profissional.
-
-## Histórias de Usuários
-
-# User Stories
+## User Stories
 
 | User Story ID | Story | Ator Primário |
 |---------------|-------|---------------|
@@ -123,7 +98,7 @@ João Martins percebe a necessidade de uma solução tecnológica que permita ot
 
 ---
 
-# Requisitos Funcionais (RF)
+## Requisitos Funcionais (RF)
 
 | ID      | Descrição do Requisito | Prioridade |
 |---------|------------------------|------------|
@@ -132,10 +107,10 @@ João Martins percebe a necessidade de uma solução tecnológica que permita ot
 | **RF-003** | Fila de processamento de pedidos de reparo. | ALTA |
 | **RF-004** | Gerenciar permissões para técnicos e gestores. | ALTA |
 | **RF-005** | Emitir status do notebook no fluxo de trabalho. | MÉDIA |
-| **RF-006** | Gerenciar status do concerto. | ALTA |
+| **RF-006** | Gerenciar status do reparo. | ALTA |
 | **RF-007** | Disparar emails de status do produto para consumidor. | ALTA |
 | **RF-008** | Facilitar o encaminhamento do orçamento. | ALTA |
-| **RF-009** | Facilitar a emissão de notas fiscais. | BAIXA |
+| **RF-009** | Facilitar a emissão de notas fiscais. | MÉDIA |
 | **RF-010** | Ter interface para cadastro de técnico. | ALTA |
 | **RF-011** | Ter interface para visualização dos status dos notebooks por técnico, exclusivo para gerente. | MÉDIA |
 | **RF-012** | Comunicação entre técnico e usuário. | ALTA |
@@ -146,20 +121,20 @@ João Martins percebe a necessidade de uma solução tecnológica que permita ot
 
 ---
 
-# Requisitos Não Funcionais (RNF)
+## Requisitos Não Funcionais (RNF)
 
 | ID      | Descrição do Requisito | Prioridade |
 |---------|------------------------|------------|
 | **RNF-001** | O sistema deve ser responsivo e acessível em dispositivos móveis. | ALTA |
-| **RNF-002** | O sistema deve processar requisições de usuário em no máximo 5 segundos. | BAIXA |
-| **RNF-004** | O sistema deve ser escalável para suportar aumento de demanda. | BAIXA |
+| **RNF-002** | O sistema deve processar requisições de usuário em no máximo 5 segundos. | MÉDIA |
+| **RNF-004** | O sistema deve ser escalável para suportar aumento de demanda. | MÉDIA |
 | **RNF-005** | O sistema deve ter alta disponibilidade, com uptime mínimo de 99%. | ALTA |
 | **RNF-006** | A plataforma deve ter um design intuitivo, focado em experiência do usuário. | ALTA |
 | **RNF-007** | O sistema deve suportar auditoria completa de todas as ações realizadas. | MÉDIA |
 
 ---
 
-# Restrições
+## Restrições
 
 | ID  | Restrição |
 |-----|-----------|
@@ -169,4 +144,3 @@ João Martins percebe a necessidade de uma solução tecnológica que permita ot
 | **04** | Não será permitido utilizar tecnologias não compatíveis com dispositivos móveis. |
 | **05** | O desenvolvimento é único e exclusivamente através de plataforma web, não havendo a possibilidade de desenvolver um aplicativo. |
 | **06** | O sistema não pode armazenar ou manipular um banco de dados. |
-
