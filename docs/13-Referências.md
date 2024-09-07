@@ -1,22 +1,6 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
-
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
-
-Exemplos de referências bibliográficas:
-
-
-**[1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
-
-**[2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
-
-**[3]** - _CORMEN, Thomas H. et al. **Algoritmos: teoria e prática**. Rio de Janeiro, RJ: Elsevier, Campus, c2012. xvi, 926 p. ISBN 9788535236996._
-
-**[4]** - _SUTHERLAND, Jeffrey Victor. **Scrum: a arte de fazer o dobro do trabalho na metade do tempo**. 2. ed. rev. São Paulo, SP: Leya, 2016. 236, [4] p. ISBN 9788544104514._
-
-**[5]** - _RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial**. Rio de Janeiro: Elsevier, c2013. xxi, 988 p. ISBN 9788535237016._
-
-salve
+> - [ODS e Agenda 2030](https://www.google.com/url?q=https://www.pactoglobal.org.br/ods-e-agenda-2030/&sa=D&source=docs&ust=1725406076246101&usg=AOvVaw20xG6ekVgHqghO7ERS-_d-)
+> - [Como a inovação tecnológica está modernizando os reparos de produtos](https://www.google.com/url?q=https://www.supplychainbrain.com/blogs/1-think-tank/post/40174-how-tech-innovation-is-modernizing-product-repairs-in-the-supply-chain&sa=D&source=docs&ust=1725406113217570&usg=AOvVaw25cuvGG3HMpmHDn3NY-0nj)
+> - [Industrial Electronics Repair](https://trsautomation.com/services/industrial-electronics-repair/)
+> - [O Descarte de Resíduos Eletroeletrônicos pelas Empresas de Assistência Técnica sob a Perspectiva do Conceito de Green IT ](https://ecoinovar.com.br/cd2013/arquivos/artigos/ECO214.pdf)
