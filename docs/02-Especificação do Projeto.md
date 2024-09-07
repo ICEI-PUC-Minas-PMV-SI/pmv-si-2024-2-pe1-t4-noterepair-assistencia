@@ -117,7 +117,6 @@ João Martins é um técnico com mais de 10 anos de experiência, especializado 
 | **RF-013** | Interface para usuário, garantindo uma experiência de fácil uso e acesso às informações necessárias. | ALTA |
 | **RF-014** | Interface para gerente, oferecendo uma visão geral dos processos e status de trabalho da equipe. | ALTA |
 | **RF-015** | Interface para técnico, facilitando a organização de suas tarefas diárias. | ALTA |
-| **RF-016** | Interface de login com segurança de dois fatores. | ALTA |
 
 ---
 
