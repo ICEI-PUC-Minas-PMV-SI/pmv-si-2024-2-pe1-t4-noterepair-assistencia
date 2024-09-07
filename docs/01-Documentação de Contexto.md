@@ -1,8 +1,16 @@
 # Introdução
 
-O processo de digitalização nas empresas brasileiras é uma tendência identificada pela Associação Brasileira de Desenvolvimento Industrial, que contabilizou um aumento do investimento nesta área em 24% das empresas. Contudo, esse crescimento não se reflete nas micro e pequenas empresas, conforme pesquisa realizada pela FGV em 2023, onde 66% delas estão nos estágios iniciais de maturidade digital. Especialmente no segmento de tecnologia, essa inserção pode ser percebida como um diferencial importante, pois aprimora métodos de gerenciamento. Em um mercado competitivo, no qual 30% das pequenas empresas fecham antes de cinco anos, de acordo com o Sebrae, é fundamental superar métodos que se mostrem ineficientes, resultando em problemas como: gerenciamento inadequado de pedidos e dados dos clientes, falta de transparência do processo e uma experiência pouco conveniente para os usuários.
+O processo de digitalização nas empresas brasileiras é uma tendência identificada pela Associação Brasileira de Desenvolvimento Industrial, que contabilizou um aumento do investimento nesta área em 24% das empresas. Contudo, esse crescimento não se reflete nas micro e pequenas empresas, conforme pesquisa realizada pela FGV em 2023, onde 66% delas estão nos estágios iniciais de maturidade digital. Especialmente no segmento de tecnologia, essa inserção pode ser percebida como um diferencial importante, pois aprimora métodos de gerenciamento e traz resultados financeiros significativos, como a redução de custos operacionais e maior retenção de clientes. Em um mercado competitivo, no qual 30% das pequenas empresas fecham antes de cinco anos, de acordo com o Sebrae, é fundamental superar métodos que se mostrem ineficientes, resultando em problemas como: gerenciamento inadequado de pedidos e dados dos clientes, falta de transparência do processo e uma experiência pouco conveniente para os usuários.
 
-Em meio a esse cenário surge uma solução inovadora, **NoteRepair**. Nossa proposta visa transformar a operação dos serviços de ponta a ponta, beneficiando toda a cadeia, desde as empresas até os consumidores finais. Algumas das maneiras de abordar este problema incluem uma plataforma intuitiva e transparente com cada etapa do processo de reparo, segurança e comodidade ao cliente, além de coleta e entrega do equipamento no conforto da sua casa, entre outros benefícios.
+Além disso, a falta de digitalização pode aumentar significativamente os custos com retrabalho, perda de confiança dos clientes e dificuldades em acompanhar a demanda crescente. Estudos mostram que empresas que não adotam práticas digitais podem perder até 25% de seus clientes devido à falta de eficiência.
+
+Em meio a esse cenário surge uma solução inovadora, **NoteRepair**. Nossa proposta visa transformar a operação dos serviços de ponta a ponta, beneficiando toda a cadeia, desde a empresa até os consumidores finais. Algumas das maneiras de abordar este problema incluem uma plataforma intuitiva e transparente com cada etapa do processo de reparo, segurança e comodidade ao cliente, além de coleta e entrega do equipamento no conforto da sua casa, entre outros benefícios.
+
+## Estado da Arte e Propostas de Melhoria
+
+Na atualidade, várias empresas de assistência técnica estão adotando plataformas digitais para otimizar seus processos. Soluções como **RepairDesk** e **Zendesk** oferecem plataformas de suporte técnico que permitem agendamento e acompanhamento de reparos online, algo que vem se tornando um padrão. No entanto, essas plataformas geralmente não oferecem uma integração perfeita com serviços logísticos ou a capacidade de personalizar profundamente a experiência do cliente. 
+
+A NoteRepair pretende melhorar essas soluções ao integrar **praticidade e transparência de processos de logística**, incluindo coleta e entrega de equipamentos, além de uma interface altamente personalizada, permitindo aos clientes se comunicarem com a assitencia técnica pela plataforma do site.
 
 ## Problema
 
@@ -41,27 +49,20 @@ O estudo de confiança do Edelman Trust Barometer de 2023 também destacou que 6
 **Impacto:**  
 A falta de comunicação ativa e clara resulta em frustração e perda de confiança no serviço prestado.
 
-### 4. Dificuldade na Emissão de Relatórios e Análise de Desempenho
-
-**Contextualização:**  
-Relatórios detalhados são essenciais para que a gerência monitore o desempenho operacional e implemente melhorias.
-
-**Dados Reais:**  
-A importância da clareza e do acompanhamento contínuo das operações é sublinhada no relatório da Edelman, onde se destaca que as ações das marcas que promovem a confiança do consumidor têm um impacto direto na lealdade e na propensão a recomendar a empresa para outros consumidores (Edelman).
-
-**Impacto:**  
-A falta de relatórios detalhados impede uma visão clara do desempenho, dificultando a identificação de gargalos e a implementação de melhorias.
-
 ## Objetivos
-
 O principal objetivo da NoteRepair é desenvolver uma plataforma integrada que otimize todo o processo de reparo de notebooks, desde o cadastro do cliente até a entrega do equipamento reparado, garantindo transparência, eficiência e conveniência. Para isso, a solução será projetada para cumprir os seguintes objetivos específicos:
 
-* Cadastro e Solicitação de Serviço;
-* Encaminhamento de Pedidos;
-* Gerenciamento de Permissões e Recursos;
-* Emissão de Relatórios;
-* Comunicação Ativa com o Cliente;
-* Acompanhamento e Feedback.
+* **Cadastro e Solicitação de Serviço;** 
+
+* **Encaminhamento de Pedidos;**
+
+* **Gerenciamento de Permissões e Recursos;**
+
+* **Emissão de Relatórios;**
+
+* **Comunicação Ativa com o Cliente;**
+
+* **Acompanhamento e Feedback.**
 
 Com esses objetivos, a NoteRepair visa oferecer um serviço completo e inovador, que não só melhora a eficiência interna da empresa, mas também aprimora a experiência do cliente, promovendo confiança e satisfação.
 
