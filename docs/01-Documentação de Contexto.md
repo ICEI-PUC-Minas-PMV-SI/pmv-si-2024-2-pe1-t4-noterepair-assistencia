@@ -44,7 +44,7 @@ A ausência de serviços de logística dedicados força os clientes a se desloca
 Manter uma comunicação clara e contínua durante o processo de reparo é vital para assegurar a satisfação do cliente.
 
 **Nova Citação**:  
-No Brasil, 66% dos consumidores relatam que são influenciados por como as marcas se comunicam com transparência sobre questões sociais. Esse quesito se torna cruscial para confiabilidade na comunicação.
+No Brasil, 66% dos consumidores relatam que são influenciados por como as marcas se comunicam com transparência sobre questões sociais, segundo estudo da Elderman. Esse quesito se torna cruscial para confiabilidade na comunicação.
 
 **Impacto:**  
 A falta de comunicação ativa e clara resulta em frustração e perda de confiança no serviço prestado.
