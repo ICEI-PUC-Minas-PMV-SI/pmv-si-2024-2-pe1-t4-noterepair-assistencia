@@ -21,8 +21,8 @@ Em um ambiente onde a eficiência e a confiança são cruciais, as empresas de r
 **Contextualização:**  
 A transparência é essencial para garantir a confiança do cliente em serviços de reparo, mas muitas empresas ainda falham em fornecer informações claras sobre as etapas envolvidas.
 
-**Dados Reais:**  
-O relatório da Edelman Trust Barometer de 2023 revela que 77% dos consumidores da Geração Z acreditam que é mais importante do que nunca confiar nas marcas que compram, com uma expectativa crescente de transparência e comunicação contínua após a compra inicial (Edelman). Isso indica que uma falta de transparência pode resultar em perda de confiança e lealdade por parte dos clientes, especialmente os mais jovens.
+**Nova Citação**:  
+Segundo o Edelman Trust Barometer de 2023, a Geração Z aumenta a importância da confiança nas marcas. Globalmente, 79% dos consumidores da Geração Z afirmam que confiar nas marcas que compram é mais importante hoje do que era no passado.
 
 **Impacto:**  
 Isso leva a uma percepção negativa, com clientes temendo fraudes e a perda de seus equipamentos.
@@ -32,8 +32,8 @@ Isso leva a uma percepção negativa, com clientes temendo fraudes e a perda de 
 **Contextualização:**  
 Em um mercado onde a conveniência é um fator decisivo para a satisfação do cliente, é fundamental oferecer serviços que minimizem o esforço do consumidor.
 
-**Dados Reais:**  
-Conforme o relatório da Edelman, 68% dos consumidores acreditam que as ações de marca que promovem confiança influenciam onde e como compram. A falta de serviços convenientes, como coleta e entrega, pode ser vista como uma falha crítica na experiência do cliente (Edelman).
+**Nova Citação**:  
+Responsabilização e prestação de contas são mais eficazes para gerar confiança do que conexões emocionais. Conforme o relatório da Edelman, cerca de 69% dos consumidores globais afirmam que assumir erros é crucial para gerar confiança em uma marca.
 
 **Impacto:**  
 A ausência de serviços de logística dedicados força os clientes a se deslocarem até as unidades técnicas, resultando em insatisfação e menor fidelização.
@@ -43,8 +43,8 @@ A ausência de serviços de logística dedicados força os clientes a se desloca
 **Contextualização:**  
 Manter uma comunicação clara e contínua durante o processo de reparo é vital para assegurar a satisfação do cliente.
 
-**Dados Reais:**  
-O estudo de confiança do Edelman Trust Barometer de 2023 também destacou que 64% dos consumidores afirmam que a clareza na comunicação sobre políticas de privacidade aumenta sua confiança nas empresas. Isso sugere que a comunicação clara e contínua é essencial para manter a confiança dos clientes durante o processo de reparo (Edelman).
+**Nova Citação**:  
+No Brasil, 66% dos consumidores relatam que são influenciados por como as marcas se comunicam com transparência sobre questões sociais. Esse quesito se torna cruscial para confiabilidade na comunicação.
 
 **Impacto:**  
 A falta de comunicação ativa e clara resulta em frustração e perda de confiança no serviço prestado.
@@ -76,11 +76,6 @@ Anteriormente, eram comuns processos lineares e manuais, desde o registro de ent
 
 Ademais, o incremento da transparência em relação aos serviços prestados, com uma plataforma clara sobre todo o fluxo do processo, pode ser entendido como um diferencial competitivo para a empresa, adequando o negócio a uma realidade de mercado vinculada à responsabilidade social e ao consumo responsável. Além disso, a NoteRepair promove um serviço de coleta e entrega ponta a ponta, eliminando a necessidade de deslocamento do cliente até uma unidade técnica. E, por último, com gestão visual e mapeamento dos processos, a carga de trabalho é equilibrada pelos gestores, proporcionando um processo mais ágil e efetivo.
 
-> **Referências**:
-> - [ODS e Agenda 2030](https://www.google.com/url?q=https://www.pactoglobal.org.br/ods-e-agenda-2030/&sa=D&source=docs&ust=1725406076246101&usg=AOvVaw20xG6ekVgHqghO7ERS-_d-)
-> - [Como a inovação tecnológica está modernizando os reparos de produtos](https://www.google.com/url?q=https://www.supplychainbrain.com/blogs/1-think-tank/post/40174-how-tech-innovation-is-modernizing-product-repairs-in-the-supply-chain&sa=D&source=docs&ust=1725406113217570&usg=AOvVaw25cuvGG3HMpmHDn3NY-0nj)
-> - [Industrial Electronics Repair](https://trsautomation.com/services/industrial-electronics-repair/)
-> - [O Descarte de Resíduos Eletroeletrônicos pelas Empresas de Assistência Técnica sob a Perspectiva do Conceito de Green IT ](https://ecoinovar.com.br/cd2013/arquivos/artigos/ECO214.pdf)
 
 ## Público-Alvo
 
