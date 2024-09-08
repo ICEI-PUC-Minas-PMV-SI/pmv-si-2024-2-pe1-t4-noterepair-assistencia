@@ -15,3 +15,7 @@
 **[7]** - REPAIRDESK. RepairDesk. Disponível em: https://www.repairdesk.co. Acesso em: 7 set. 2024.
 
 **[8]** - ZENDESK. Zendesk. Disponível em: https://www.zendesk.com. Acesso em: 7 set. 2024.
+
+**[9]** - ABDI - Agência Brasileira de Desenvolvimento Industrial. Investimento em digitalização nas empresas brasileiras. ABDI, 2023. Disponível em: https://www.abdi.com.br/investimento-digitalizacao-empresas-brasileiras/. Acesso em: 7 set. 2024.
+
+**[10]** - SEBRAE. A taxa de sobrevivência das empresas no Brasil. Sebrae, 2023. Disponível em: https://sebrae.com.br/sites/PortalSebrae/artigos/a-taxa-de-sobrevivencia-das-empresas-no-brasil,d5147a3a415f5810VgnVCM1000001b00320aRCRD. Acesso em: 7 set. 2024.
