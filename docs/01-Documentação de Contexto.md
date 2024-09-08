@@ -68,13 +68,13 @@ Com esses objetivos, a NoteRepair visa oferecer um serviço completo e inovador,
 
 ## Justificativa
 
-Decidimos criar a NoteRepair para promover boas práticas de negócio em alinhamento com as ODS 8 e 12, fomentando o crescimento econômico, a inovação e garantindo padrões sustentáveis de consumo e produção.
+Decidimos criar a NoteRepair para promover boas práticas de negócio em alinhamento com as ODS 8 e 12, fomentando o crescimento econômico, a inovação e garantindo padrões sustentáveis de consumo e produção. **[1]**
 
-Dijam Panigrahi, cofundador e COO da GridRaster Inc., fornecedora líder de plataformas AR/VR baseadas em nuvem, diz que “À medida que os fabricantes se esforçam para manter altos padrões de qualidade e serviço, as complexidades do manuseio de reparos podem se tornar um gargalo, levando a atrasos, aumento de custos e insatisfação do cliente.”
+Dijam Panigrahi, cofundador e COO da GridRaster Inc., fornecedora líder de plataformas AR/VR baseadas em nuvem, diz que “À medida que os fabricantes se esforçam para manter altos padrões de qualidade e serviço, as complexidades do manuseio de reparos podem se tornar um gargalo, levando a atrasos, aumento de custos e insatisfação do cliente.” **[2]**
 
-Anteriormente, eram comuns processos lineares e manuais, desde o registro de entrada de aparelhos até a compra de peças sobressalentes, o que resultava em prazos longos e maiores custos operacionais. Com o novo software, além de reduzir o lixo gerado, trazemos diversos benefícios ao negócio, como a otimização do fluxo de trabalho, redução de erros no processo de recepção, manutenção e envio de notebooks, além de melhorias na comunicação interna e externa.
+Anteriormente, eram comuns processos lineares e manuais, desde o registro de entrada de aparelhos até a compra de peças sobressalentes, o que resultava em prazos longos e maiores custos operacionais. Com o novo software, além de reduzir o lixo gerado, trazemos diversos benefícios ao negócio, como a otimização do fluxo de trabalho, redução de erros no processo de recepção, manutenção e envio de notebooks, além de melhorias na comunicação interna e externa. **[3]**
 
-Ademais, o incremento da transparência em relação aos serviços prestados, com uma plataforma clara sobre todo o fluxo do processo, pode ser entendido como um diferencial competitivo para a empresa, adequando o negócio a uma realidade de mercado vinculada à responsabilidade social e ao consumo responsável. Além disso, a NoteRepair promove um serviço de coleta e entrega ponta a ponta, eliminando a necessidade de deslocamento do cliente até uma unidade técnica. E, por último, com gestão visual e mapeamento dos processos, a carga de trabalho é equilibrada pelos gestores, proporcionando um processo mais ágil e efetivo.
+Ademais, o incremento da transparência em relação aos serviços prestados, com uma plataforma clara sobre todo o fluxo do processo, pode ser entendido como um diferencial competitivo para a empresa, adequando o negócio a uma realidade de mercado vinculada à responsabilidade social e ao consumo responsável. Além disso, a NoteRepair promove um serviço de coleta e entrega ponta a ponta, eliminando a necessidade de deslocamento do cliente até uma unidade técnica. E, por último, com gestão visual e mapeamento dos processos, a carga de trabalho é equilibrada pelos gestores, proporcionando um processo mais ágil e efetivo. **[4]**
 
 
 ## Público-Alvo
