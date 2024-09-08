@@ -81,6 +81,9 @@ Nome: João Martins
 **Perfil Profissional:**
 João Martins é um técnico com mais de 10 anos de experiência, especializado na manutenção de notebooks, enfrentando desafios operacionais devido à falta de ferramentas adequadas para otimizar seu fluxo de trabalho.
 
+## Mapa de Personas
+![Mapa de Personas](./img/personas-map.png)
+
 ---
 
 ## User Stories
@@ -126,10 +129,10 @@ João Martins é um técnico com mais de 10 anos de experiência, especializado 
 |---------|------------------------|------------|
 | **RNF-001** | O sistema deve ser responsivo e acessível em dispositivos móveis, facilitando o acesso a partir de qualquer lugar. | ALTA |
 | **RNF-002** | O sistema deve processar requisições de usuário em no máximo 5 segundos, garantindo eficiência na utilização da plataforma. | MÉDIA |
-| **RNF-004** | O sistema deve ser escalável para suportar aumento de demanda sem comprometer o desempenho. | MÉDIA |
-| **RNF-005** | O sistema deve ter alta disponibilidade, com uptime mínimo de 99%, para garantir confiabilidade aos usuários. | ALTA |
-| **RNF-006** | A plataforma deve ter um design intuitivo, focado em experiência do usuário e acessibilidade. | ALTA |
-| **RNF-007** | O sistema deve suportar auditoria completa de todas as ações realizadas, para fins de rastreamento e segurança. | MÉDIA |
+| **RNF-003** | O sistema deve ser escalável para suportar aumento de demanda sem comprometer o desempenho. | MÉDIA |
+| **RNF-004** | O sistema deve ter alta disponibilidade, com uptime mínimo de 99%, para garantir confiabilidade aos usuários. | ALTA |
+| **RNF-005** | A plataforma deve ter um design intuitivo, focado em experiência do usuário e acessibilidade. | ALTA |
+| **RNF-006** | O sistema deve suportar auditoria completa de todas as ações realizadas, para fins de rastreamento e segurança. | MÉDIA |
 
 ---
 
