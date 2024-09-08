@@ -17,6 +17,7 @@ O objetivo da NoteRepair é desenvolver uma plataforma integrada e automatizada 
 * Marcelo Freire Pereira de Souza
 * Pedro Paulo Salman de Oliveira
 * Ryan Vinicius Santos Morais
+* Marcos Paulo Gonçalves Silva
 
 ## Orientador
 
