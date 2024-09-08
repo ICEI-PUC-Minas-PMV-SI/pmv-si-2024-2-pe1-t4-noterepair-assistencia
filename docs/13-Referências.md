@@ -12,8 +12,6 @@
 
 **[6]** - EDELMAN TRUST BAROMETER. Edelman Trust Barometer 2023. Disponível em: https://www.edelman.com/trust. Acesso em: 7 set. 2024.
 
-**[7]** - GRIDRASTER INC. Como a inovação tecnológica está modernizando os reparos de produtos. SUPPLY CHAIN BRAIN. Disponível em: https://www.supplychainbrain.com. Acesso em: 7 set. 2024.
+**[7]** - REPAIRDESK. RepairDesk. Disponível em: https://www.repairdesk.co. Acesso em: 7 set. 2024.
 
-**[8]** - REPAIRDESK. RepairDesk. Disponível em: https://www.repairdesk.co. Acesso em: 7 set. 2024.
-
-**[9]** - ZENDESK. Zendesk. Disponível em: https://www.zendesk.com. Acesso em: 7 set. 2024.
+**[8]** - ZENDESK. Zendesk. Disponível em: https://www.zendesk.com. Acesso em: 7 set. 2024.
