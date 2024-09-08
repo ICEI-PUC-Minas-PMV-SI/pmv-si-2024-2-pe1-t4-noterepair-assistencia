@@ -7,3 +7,13 @@
 **[3]** - TRS AUTOMATION. Industrial Electronics Repair. Disponível em: https://trsautomation.com/services/industrial-electronics-repair/. Acesso em: 7 set. 2024.
 
 **[4]** - SILVA, João Pedro; FERREIRA, Maria Júlia. O Descarte de Resíduos Eletroeletrônicos pelas Empresas de Assistência Técnica sob a Perspectiva do Conceito de Green IT. In: CONGRESSO INTERNACIONAL DE GESTÃO, INOVAÇÃO E SUSTENTABILIDADE, 2013, Santa Maria. Anais [...]. Santa Maria: Universidade Federal de Santa Maria, 2013. Disponível em: https://ecoinovar.com.br/cd2013/arquivos/artigos/ECO214.pdf. Acesso em: 7 set. 2024. [4]
+
+**[5]** - FUNDAÇÃO GETÚLIO VARGAS (FGV). Pesquisa de maturidade digital em micro e pequenas empresas. 2023. Disponível em: https://www.fgv.br. Acesso em: 7 set. 2024.
+
+**[6]** - EDELMAN TRUST BAROMETER. Edelman Trust Barometer 2023. Disponível em: https://www.edelman.com/trust. Acesso em: 7 set. 2024.
+
+**[7]** - GRIDRASTER INC. Como a inovação tecnológica está modernizando os reparos de produtos. SUPPLY CHAIN BRAIN. Disponível em: https://www.supplychainbrain.com. Acesso em: 7 set. 2024.
+
+**[8]** - REPAIRDESK. RepairDesk. Disponível em: https://www.repairdesk.co. Acesso em: 7 set. 2024.
+
+**[9]** - ZENDESK. Zendesk. Disponível em: https://www.zendesk.com. Acesso em: 7 set. 2024.
