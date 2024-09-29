@@ -1,6 +1,8 @@
 # Documento de Interface - NoteRepair
 
-Este documento descreve as principais interfaces da plataforma *NoteRepair*, que é destinada à gestão de reparos de notebooks. A seguir, são apresentados os fluxos e telas que compõem o sistema, desde o acesso inicial até o gerenciamento de pedidos, colaboradores e comunicação com clientes.
+*NoteRepair* é uma plataforma desenvolvida para facilitar a interação entre clientes e técnicos de reparo de equipamentos, permitindo que gerentes, técnicos e clientes acompanhem e gerenciem reparos e orçamentos em tempo real. O sistema é estruturado de forma a atender aos requisitos funcionais e não funcionais descritos nas histórias de usuário.
+
+Para o design das páginas, foi utilizado o [Figma](https://www.figma.com/), uma ferramenta robusta para a criação e prototipação de interfaces. O controle de versionamento das documentações e histórico de alterações foi gerenciado através do [Confluence](https://www.atlassian.com/software/confluence), uma plataforma que facilita a colaboração e o gerenciamento de projetos.
 
 ## User Flow
 
@@ -30,7 +32,7 @@ Os técnicos podem visualizar a fila de reparos e atualizar o status dos serviç
 
 ### Diagrama do User Flow
 
-![User Flow](UserFlow.png)
+![User Flow](img/User Flow.png)
 
 ---
 
