@@ -1,12 +1,28 @@
 # Template padrão do site
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+A identidade visual da Noterepair, com um design clean e moderno, reflete a qualidade e a eficiência dos nossos serviços. As cores suaves e agradáveis criam um ambiente online mais convidativo, enquanto a organização intuitiva das informações agiliza a sua experiência. Com este template, buscamos oferecer uma plataforma mais completa e eficaz para atender às suas necessidades.
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+# Design
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+### Logo
+![Logo](img/Logo.png)
+
+### Cabeçalho
+![Cabeçalho](img/Header.png)
+
+### Rodapé
+![Cabeçalho](img/Footer.png)
+
+### Página Inicial
+![Página Inicial](img/PageInicial.png)
+
+### Cores
+![Cores](img/Cores.png)
+
+### Tipografia
+![Cores](img/Tipografia.png)
+
+### Iconografia
+Utilizados icones presentes na biblioteca [Icons8](https://icons8.com/). Optamos pelo pacote IOS 17, que apresenta um visual moderno e minimalista.
+
+![Cores](img/Iconografia.png)
