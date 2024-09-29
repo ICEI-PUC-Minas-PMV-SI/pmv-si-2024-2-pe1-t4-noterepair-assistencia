@@ -109,17 +109,13 @@ João Martins é um técnico com mais de 10 anos de experiência, especializado 
 | **RF-002** | Facilitar a solicitação de reparo diretamente pela plataforma. | ALTA |
 | **RF-003** | Fila de processamento de pedidos de reparo. | ALTA |
 | **RF-004** | Gerenciar permissões para técnicos e gestores. | ALTA |
-| **RF-005** | Emitir status do notebook no fluxo de trabalho, permitindo ao cliente acompanhar cada etapa. | MÉDIA |
-| **RF-006** | Gerenciar status do reparo e organizar as prioridades de trabalho dos técnicos. | ALTA |
-| **RF-007** | Disparar emails ou mensagens automáticas de status do produto para consumidor, para aumentar a transparência do processo. | ALTA |
-| **RF-008** | Facilitar o encaminhamento do orçamento para o cliente antes do início do reparo, garantindo clareza nos custos. | ALTA |
-| **RF-009** | Facilitar a emissão de notas fiscais ao final do processo. | MÉDIA |
-| **RF-010** | Ter interface para cadastro de técnico e gestão de permissões. | ALTA |
-| **RF-011** | Ter interface para visualização dos status dos notebooks por técnico, exclusivo para gerente, melhorando o gerenciamento de carga de trabalho. | MÉDIA |
-| **RF-012** | Comunicação entre técnico e usuário, permitindo que o técnico forneça atualizações em tempo real. | ALTA |
-| **RF-013** | Interface para usuário, garantindo uma experiência de fácil uso e acesso às informações necessárias. | ALTA |
-| **RF-014** | Interface para gerente, oferecendo uma visão geral dos processos e status de trabalho da equipe. | ALTA |
-| **RF-015** | Interface para técnico, facilitando a organização de suas tarefas diárias. | ALTA |
+| **RF-005** | Atualizar status do notebook no fluxo de trabalho, permitindo ao cliente acompanhar cada etapa. | MÉDIA |
+| **RF-006** | Relatório do status do reparo e organização das prioridades de trabalho dos técnicos. | ALTA |
+| **RF-007** | Enviar emails automáticos de status do produto para consumidor, para aumentar a transparência do processo. | ALTA |
+| **RF-008** | Encaminhar o orçamento para o cliente antes do início do reparo, garantindo clareza nos custos. | ALTA |
+| **RF-009** | Ter interface para cadastro de técnico e gestão de permissões. | ALTA |
+| **RF-010** | Consulta dos status dos notebooks em reparo por técnico, exclusivo para gerente, melhorando o gerenciamento de carga de trabalho. | MÉDIA |
+| **RF-011** | Comunicação entre técnico e usuário, permitindo que o técnico forneça atualizações em tempo real. | ALTA |
 
 ---
 
@@ -133,6 +129,10 @@ João Martins é um técnico com mais de 10 anos de experiência, especializado 
 | **RNF-004** | O sistema deve ter alta disponibilidade, com uptime mínimo de 99%, para garantir confiabilidade aos usuários. | ALTA |
 | **RNF-005** | A plataforma deve ter um design intuitivo, focado em experiência do usuário e acessibilidade. | ALTA |
 | **RNF-006** | O sistema deve suportar auditoria completa de todas as ações realizadas, para fins de rastreamento e segurança. | MÉDIA |
+| **RNF-007** | Interface para usuário, garantindo uma experiência de fácil uso e acesso às informações necessárias. | ALTA |
+| **RNF-008** | Interface para gerente, oferecendo uma visão geral dos processos e status de trabalho da equipe. | ALTA |
+| **RNF-009** | Interface para técnico, facilitando a organização de suas tarefas diárias. | ALTA |
+| **RNF-010** | Implementar e obdecer as legislações vigente da Lei Geral de Proteção dos Dados (LGPD). | ALTA |
 
 ---
 
@@ -141,8 +141,7 @@ João Martins é um técnico com mais de 10 anos de experiência, especializado 
 | ID  | Restrição |
 |-----|-----------|
 | **01** | O projeto deverá ser entregue até o final do semestre, sendo código aberto e amplamente documentado utilizando o GitHub. |
-| **02** | Não pode ser desenvolvido um módulo de backend próprio (deve usar APIs existentes). |
-| **03** | O sistema não pode operar sem conexão com a internet (é necessário estar online). |
-| **04** | Não será permitido utilizar tecnologias não compatíveis com dispositivos móveis. |
-| **05** | O desenvolvimento é único e exclusivamente através de plataforma web, não havendo a possibilidade de desenvolver um aplicativo. |
-| **06** | O sistema não pode armazenar ou manipular um banco de dados próprio; deve integrar-se a sistemas externos. |
+| **02** | O sistema não pode operar sem conexão com a internet (é necessário estar online). |
+| **03** | Não será permitido utilizar tecnologias não compatíveis com dispositivos móveis. |
+| **04** | O desenvolvimento é único e exclusivamente através de plataforma web, não havendo a possibilidade de desenvolver um aplicativo. |
+| **05** | O sistema não pode armazenar ou manipular um banco de dados próprio; deve integrar-se a sistemas externos. |
