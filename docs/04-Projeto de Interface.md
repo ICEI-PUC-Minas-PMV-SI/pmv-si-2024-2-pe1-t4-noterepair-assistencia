@@ -41,21 +41,11 @@ Os técnicos podem visualizar a fila de reparos e atualizar o status dos serviç
 Esta é a página inicial acessada pelo gerente. Ela contém diversas funcionalidades relacionadas ao gerenciamento de colaboradores, supervisão da fila de pedidos e emissão de relatórios. O gerente tem controle completo sobre os técnicos e pode visualizar o progresso de cada reparo.
 
 - **Cadastro e Gerenciamento de Colaboradores:** O gerente pode adicionar novos técnicos e gerenciar suas permissões.
+- **Permissões:** Controle sobre as permissões de cada colaborador.
 - **Fila de Processamento de Pedidos:** O gerente pode visualizar todos os pedidos de reparo em andamento e acessar informações detalhadas sobre cada um.
 - **Emissão de Relatórios:** O gerente pode gerar relatórios sobre finanças, reparos e transações, com opção de exportação em PDF ou XLS.
 
-![Página Inicial do Gerente](Pagina_Inicial_Gerente.png)
-
----
-
-## Interface - Página Inicial do Cliente
-
-Nesta página, os clientes têm acesso às informações sobre seus pedidos de reparo. Eles podem acompanhar o status dos reparos, acessar detalhes específicos e criar novas solicitações de reparo.
-
-- **Listagem de Reparo Solicitado:** O cliente pode visualizar todos os reparos solicitados e o status atual de cada um.
-- **Criação de Solicitação de Reparo:** O cliente pode preencher um formulário com detalhes sobre o dispositivo e o problema enfrentado.
-
-![Página Inicial do Cliente](Pagina_Inicial_Cliente.png)
+![Página Inicial do Gerente](img/CadastroEGerenciamentodeAcessodosTécnicos.png)
 
 ---
 
@@ -66,7 +56,7 @@ Esta página é acessada tanto pelos técnicos quanto pelos gerentes. Ela aprese
 - **Pedidos em Andamento:** Visualização dos pedidos com opções de filtragem e edição.
 - **Ações Disponíveis:** Visualizar detalhes, editar ou mudar o status do reparo.
 
-![Fila de Processamento de Pedidos](Fila_de_Processamento_de_Pedidos.png)
+![Fila de Processamento de Pedidos](img/FiladeProcessamentodePedidos.png)
 
 ---
 
@@ -78,7 +68,18 @@ A página de relatórios permite ao gerente gerar, visualizar e exportar relató
 - **Exportação:** PDF e XLS disponíveis para download.
 - **Criação de Relatórios:** Formulário para criar novos relatórios com detalhes como status, responsável e tipo de relatório.
 
-![Página de Relatórios](Pagina_de_Relatorios.png)
+![Página de Relatórios](img/Relatórios.png)
+
+---
+
+## Interface - Página Inicial do Cliente
+
+Esta é a página de entrada do site, onde o cliente tem o primeiro contato com a plataforma. Aqui, o cliente pode realizar o login ou se cadastrar para ter acesso ao sistema e, posteriormente, criar novas solicitações e acompanhar seus reparos.
+
+- **Login e Cadastro:** O cliente pode realizar o login caso já tenha uma conta, ou pode optar por se cadastrar fornecendo as informações necessárias.
+- **Primeiro Contato com o Sistema:** Esta página oferece uma introdução básica sobre o serviço, valores e missão da empresa, além de informações de contato e localizações.
+
+![Página Inicial](img/HomepagecomloginEcadastro.png)
 
 ---
 
@@ -89,41 +90,18 @@ Nesta interface, o cliente pode solicitar um orçamento para o reparo do disposi
 - **Descrição do Problema:** O cliente deve fornecer detalhes sobre o defeito do dispositivo.
 - **Endereços:** Campos para inserir o endereço de coleta e entrega.
 
-![Pedido de Orçamento](Pedido_de_Orcamento.png)
+![Pedido de Orçamento](img/PedidodeReparo.png)
 
 ---
 
-## Interface - Status do Reparo
+## Interface - Chat do Cliente com Técnico
 
-A página de status do reparo exibe o progresso do serviço em andamento, mostrando as etapas "Em Análise", "Manutenção" e "Enviado". Além disso, há uma funcionalidade de chat, onde o cliente pode se comunicar diretamente com o técnico responsável, tirar dúvidas e negociar valores ou prazos.
+Essa funcionalidade permite que o cliente e o técnico se comuniquem diretamente. Através do chat, o cliente pode se comunicar com o técnico para eventuais duvidas em cada parte do processo.
 
 - **Gráfico de Progresso:** Representação visual do status do reparo.
-- **Chat:** Canal de comunicação entre cliente e técnico.
-- **Orçamento:** Detalhamento do valor estimado para o reparo.
-
-![Status do Reparo](Status_do_Reparo.png)
-
----
-
-## Interface - Gerenciamento de Colaboradores
-
-Nesta página, o gerente pode adicionar, editar ou remover colaboradores (técnicos) da plataforma. Ele também pode alterar as permissões dos colaboradores, designando quem será técnico ou quem terá acesso de gerente.
-
-- **Adicionar Colaboradores:** Formulário para incluir novos membros à equipe.
-- **Permissões:** Controle sobre as permissões de cada colaborador.
-
-![Gerenciamento de Colaboradores](Gerenciamento_de_Colaboradores.png)
-
----
-
-## Interface - Chat com Técnico
-
-Essa funcionalidade permite que o cliente e o técnico se comuniquem diretamente. Através do chat, o técnico pode informar o progresso do reparo, negociar orçamentos e esclarecer dúvidas.
-
 - **Comunicação Direta:** Chat em tempo real entre cliente e técnico.
-- **Atualização de Status:** O técnico pode atualizar o status do reparo diretamente da conversa.
 
-![Chat com Técnico](Chat_com_Tecnico.png)
+![Chat do Cliente com Técnico](img/StatusdoReparoeChatCliente.png)
 
 ---
 
@@ -138,5 +116,15 @@ Nesta página, os técnicos podem visualizar todos os detalhes de um pedido de r
 
 ---
 
+## Interface - Chat do Técnico com Cliente
 
+Essa funcionalidade permite que o técnico se comuniquem diretamente com o cliente. Através do chat, o técnico pode informar o progresso do reparo, negociar orçamentos e esclarecer dúvidas.
 
+- **Gráfico de Progresso:** Representação visual do status do reparo.
+- **Comunicação Direta:** Chat em tempo real entre cliente e técnico.
+- **Atualização de Status:** O técnico pode atualizar o status do reparo diretamente da conversa.
+- **Orçamento:** Detalhamento do valor estimado para o reparo.
+
+![Chat do Técnico com Cliente](img/StatusdoReparoeChatTécnico.png)
+
+---
