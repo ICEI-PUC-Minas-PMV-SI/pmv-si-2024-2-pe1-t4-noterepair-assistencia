@@ -41,10 +41,38 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ## Descrição das estruturas:
 
-## Notícia
+## Usuário
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
+| Id do usuário  | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
+| Nome           | Texto             | Nome do Usuário                           | João Silva                                     |           | Tipo de usuário| Texto             | Definição do usuário entre cliente, técnico e gerente | Cliente                            |
+| Senha          | Texto             | Senha secreta do usuário                  | abc123                                         | 
+| E-mail         | Texto             | Email do cliente                          | joaosilva@noterepair.com                       |
+
+## Orçamento
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Id do orçamento| Numero (Inteiro)  | Identificador único do orçamento          | 16                                             |
+| Marca          | Texto             | Marca do notebook                         | Dell                                           |
+| Modelo         | Texto             | Modelo do notebook                        | XPS15                                          |
+| Coleta CEP     | Texto             | CEP do endereço de coleta                 | 35400000                                       |
+| Coleta Bairro  | Texto             | Bairro do endereço de coleta do notebook  | Centro                                         |
+| Coleta Logradouro | Texto          | Endereço de coleta com rua e número       | Rua A, 33                                      |
+| Coleta Complemento| Texto          | Informação complementar do endereço como ponto de referência ou condomínio etc. | Casa ao lado da Oi |
+| Mesmo da coleta | booleano         | Checkbox para repetição do endereço       | FALSE                                          |
+| Entrega CEP     | Texto            | CEP do endereço de entrega                | 35400000                                       |
+| Entrega Bairro  | Texto            | Bairro do endereço de entrega do notebook | Centro                                         |
+| Entrega Logradouro | Texto         | Endereço de entrega com rua e número      | Rua A, 33                                      |
+| Entrega Complemento| Texto         | Informação complementar do endereço como ponto de referência ou condomínio etc. | Casa ao lado da Oi |
+| Data e Hora      | timestamp       | Registro de data e hora feito a partir do acionamento do botão enviar orçamento | 01/12/24; 23h45 |
+
+## Chat
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Id do cliente  | Numero (Inteiro)  | Identificador único do cliente            | 1                                              |
+| Id do técnico  | Numero (Inteiro)  | Identificador único do técnico            | 5                                              |
+| Id da conversa | Numero (Inteiro)  | Identificador único da conversa           | 18                                             |
+| Id da mensagem | Numero (Inteiro)  | Identificador único da mensagem           | 178                                            |
+| Texto da mensagem | Texto          | Texto da mensagem redigida pelo cliente ou pelo técnico| Olá, boa tarde                    |
+| Data e Hora    | timestamp         | Registro da data e hora do envio da mensagem | 01/12/24; 23h45                             |
+| Id do orçamento| Numero (Inteiro)  | Identificador do orçamento                 | 189                                           |
