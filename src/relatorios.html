@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/components/header.css" />
+    <link rel="stylesheet" href="css/components/footer.css" />
+    <link rel="stylesheet" href="css/components/modal.css" />
+    <link rel="stylesheet" href="css/components/input.css" />
+    <link rel="stylesheet" href="css/components/autenticacao.css" />
+    <link rel="stylesheet" href="css/components/botao.css" />
+    <title>NoteRepair - Relatórios</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header__logo">
+        <a href="index.html">
+          <img src="img/noterepair-logo.png" />
+        </a>
+      </div>
+
+      <nav class="header__menu">
+        <a href="cadastro_e_gerenciamento.html">Colaboradores</a>
+        <a href="fila_de_processamento_de_pedidos.html"
+          >Fila de Processamento</a
+        >
+        <a href="relatorios.html" id="header__menu--active">Relatórios</a>
+        <span class="username">Olá, João</span>
+      </nav>
+
+      <button type="button" id="header__mobile_btn_nav"></button>
+      <div class="header__mobile_menu"></div>
+    </header>
+
+    <!-- Main Content - Relatórios -->
+    <main class="container">
+      <section class="container-content">
+        <header class="container-content-header">
+          <h1 class="content-header-title">Relatórios</h1>
+          <div class="content-header-actions">
+            <button
+              class="btn-action btn-modal"
+              id="btn-novo-relatorio"
+              modalTarget="modal-novo-relatorio"
+            >
+              <img
+                src="img/agreement-new-icon.png"
+                alt="Ícone de novo relatório"
+              />
+              Novo Relatório
+            </button>
+
+            <input
+              type="text"
+              class="input-pesquisar"
+              placeholder="Pesquisar..."
+            />
+          </div>
+        </header>
+
+        <!-- Tabela de Relatórios -->
+        <div class="responsive-table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Nº do Relatório</th>
+              <th>Nome do Relatório</th>
+              <th>Data de Geração</th>
+              <th>Status</th>
+              <th>Tipo de Relatório</th>
+              <th>Responsável</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>#0001</td>
+              <td>Desempenho Financeiro</td>
+              <td>10/09/2024</td>
+              <td>
+                Concluído
+                <img
+                  src="img/down-icon.png"
+                  alt="Ícone de seta para baixo"
+                  class="arrow"
+                />
+              </td>
+              <td>
+                Financeiro
+                <img
+                  src="img/down-icon.png"
+                  alt="Ícone de seta para baixo"
+                  class="arrow"
+                />
+              </td>
+              <td>Alice Souza Gomes</td>
+              <td>
+                <img src="img/download-icon.png" alt="Ícone de download" />
+                <button
+                  class="btn-modal btn-modal-preview-relatorio"
+                  modalTarget="modal-preview-relatorio"
+                  data-pdf-path="relatorio.pdf"
+                  data-report-name="Desempenho Financeiro"
+                  data-report-number="#0001"
+                >
+                  <img src="img/view-icon.png" alt="Ícone de view" />
+                </button>
+                <img src="img/trash-icon.png" alt="Ícone de delete" />
+              </td>
+            </tr>
+            <tr>
+              <td>#0002</td>
+              <td>Status do Reparo</td>
+              <td>18/09/2024</td>
+              <td>
+                Em Progresso
+                <img
+                  src="img/down-icon.png"
+                  alt="Ícone de seta para baixo"
+                  class="arrow"
+                />
+              </td>
+              <td>
+                Reparo
+                <img
+                  src="img/down-icon.png"
+                  alt="Ícone de seta para baixo"
+                  class="arrow"
+                />
+              </td>
+              <td>Emily Cavalcanti</td>
+              <td>
+                <img src="img/download-icon.png" alt="Ícone de download" />
+                <button
+                  class="btn-modal btn-modal-preview-relatorio"
+                  modalTarget="modal-preview-relatorio"
+                  data-pdf-path="relatorio.pdf"
+                  data-report-name="Status do Reparo"
+                  data-report-number="#0002"
+                >
+                  <img src="img/view-icon.png" alt="Ícone de view" />
+                </button>
+                <img src="img/trash-icon.png" alt="Ícone de delete" />
+              </td>
+            </tr>
+            <tr>
+              <td>#0003</td>
+              <td>Resumo de Transações</td>
+              <td>20/09/2024</td>
+              <td>
+                Em Progresso
+                <img
+                  src="img/down-icon.png"
+                  alt="Ícone de seta para baixo"
+                  class="arrow"
+                />
+              </td>
+              <td>
+                Financeiro
+                <img
+                  src="img/down-icon.png"
+                  alt="Ícone de seta para baixo"
+                  class="arrow"
+                />
+              </td>
+              <td>Nicolas Santos</td>
+              <td>
+                <img src="img/download-icon.png" alt="Ícone de download" />
+                <button
+                  class="btn-modal btn-modal-preview-relatorio"
+                  modalTarget="modal-preview-relatorio"
+                  data-pdf-path="relatorio.pdf"
+                  data-report-name="Resumo de Transações"
+                  data-report-number="#0003"
+                >
+                  <img src="img/view-icon.png" alt="Ícone de view" />
+                </button>
+                <img src="img/trash-icon.png" alt="Ícone de delete" />
+              </td>
+            </tr>
+            <!-- Outros registros da tabela -->
+          </tbody>
+        </table>
+        <div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <!-- Contêiner principal do footer -->
+
+        <!-- Seção de informações de contato -->
+        <div class="contact-info">
+          <p>
+            <!-- Ícone de telefone com texto -->
+            <img src="img/phone-icon.png" alt="Ícone de telefone" />
+            (28) 3334-9420
+          </p>
+
+          <p>
+            <!-- Ícone de email com link para enviar email -->
+            <img src="img/email-icon.png" alt="Ícone de email" />
+            <a href="mailto:contato@noterepair.com">contato@noterepair.com</a>
+          </p>
+
+          <p>
+            <!-- Ícone do Instagram com link para perfil externo -->
+            <img src="img/instagram-icon.png" alt="Ícone do Instagram" />
+            <a href="https://instagram.com/noterepair" target="_blank"
+              >@noterepair</a
+            >
+          </p>
+        </div>
+
+        <!-- Seção de copyright -->
+        <div class="copyright">
+          <p>NoteRepair &copy; 2024 - Todos os Direitos Reservados</p>
+          <!-- Exibe o aviso de copyright -->
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal de Novo Relatório -->
+    <div class="modal__frame" id="modal-novo-relatorio">
+      <div class="modal__frame__box">
+        <button type="button" class="modal__close">
+          <img
+            src="img/close-black-icon.png"
+            alt="Fechar"
+          />
+        </button>
+        <div class="modal__box_content">
+          <h1 class="modal-title">Novo Relatório</h1>
+
+          <form class="modal-form">
+            <div class="form-field">
+              <label for="nome-relatorio">Nome do Relatório:</label>
+              <input
+                type="text"
+                id="nome-relatorio"
+                class="input-modal"
+                placeholder="Nome do Relatório"
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="data-geracao">Data de Geração:</label>
+              <input type="date" id="data-geracao" class="input-modal" />
+            </div>
+
+            <div class="form-field">
+              <label for="status-relatorio">Status:</label>
+              <select id="status-relatorio" class="input-modal">
+                <option>Em Progresso</option>
+                <option>Concluído</option>
+                <option>Pendente</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="tipo-relatorio">Tipo de Relatório:</label>
+              <select id="tipo-relatorio" class="input-modal">
+                <option>Financeiro</option>
+                <option>Operacional</option>
+                <option>Recursos Humanos</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="responsavel-relatorio">Responsável:</label>
+              <input
+                type="text"
+                id="responsavel-relatorio"
+                class="input-modal"
+                placeholder="Nome do Responsável"
+              />
+            </div>
+
+            <div class="icons-upload">
+              <div class="upload-icons">
+                <img
+                  src="img/pdf-import-icon.png"
+                  alt="Ícone PDF"
+                  class="upload-icon"
+                />
+                <img
+                  src="img/xls-import-icon.png"
+                  alt="Ícone Excel"
+                  class="upload-icon"
+                />
+              </div>
+              <div class="form-btn form-btn-centerized">
+                <button type="submit">
+                  <img src="img/import-icon.png" alt="" />Importar
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal de Visualização de PDF -->
+    <div class="modal__frame" id="modal-preview-relatorio">
+      <div class="modal__frame__box">
+        <button type="button" class="modal__close">
+          <img
+            src="img/close-black-icon.png"
+            alt="Fechar"
+          />
+        </button>
+        <div class="modal__box_content">
+          <h1 class="modal-title">
+            Preview Relatório:<span id="numero-relatorio-preview"></span>
+          </h1>
+
+          <div class="form-field">
+            <label for="nome-relatorio-preview">Nome do Relatório:</label>
+            <input
+              type="text"
+              id="nome-relatorio-preview"
+              class="input-modal"
+              readonly
+            />
+          </div>
+
+          <div class="pdf-preview">
+            <iframe src="" class="pdf-iframe"></iframe>
+          </div>
+
+          <div class="form-btn form-btn-centerized">
+            <button type="submit">
+              <img src="img/login-icon.png" alt="" />Acessar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/header.js"></script>
+    <script src="js/modal.js"></script>
+  </body>
+</html>
