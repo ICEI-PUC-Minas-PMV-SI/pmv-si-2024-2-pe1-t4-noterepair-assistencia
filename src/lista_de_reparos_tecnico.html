@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/components/header.css" />
+    <link rel="stylesheet" href="css/components/footer.css" />
+    <link rel="stylesheet" href="css/components/modal.css" />
+    <link rel="stylesheet" href="css/components/input.css" />
+    <link rel="stylesheet" href="css/components/botao.css" />
+    <title>NoteRepair - Lista de Reparos Técnico</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <a href="index.html">
+          <img src="img/noterepair-logo.png" alt="NoteRepair Logo" />
+        </a>
+      </div>
+
+      <nav class="header__menu">
+        <a href="lista_de_reparos_tecnico.html" id="header__menu--active"
+          >Lista de Reparos</a
+        >
+        <a href="status_reparo_tecnico.html"
+          >Status de Reparo</a
+        >
+        <span class="username">Olá, João</span>
+      </nav>
+
+      <button type="button" id="header__mobile_btn_nav"></button>
+      <div class="header__mobile_menu"></div>
+    </header>
+
+    <main class="container">
+      <section class="container-content">
+        <header class="container-content-header">
+          <h1 class="content-header-title">Lista de Reparos</h1>
+        </header>
+
+        <!-- Tabela de reparos -->
+        <div class="responsive-table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Reparo</th>
+              <th>Cliente</th>
+              <th>Data</th>
+              <th>Status</th>
+              <th>Valor</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>#0001</td>
+              <td>Lucas Almeida da Silva</td>
+              <td>27/03/2023</td>
+              <td>Enviado</td>
+              <td>R$ 800,00</td>
+              <td>
+                  <img
+                    src="img/info-icon.png"
+                    alt="Ícone de detalhes do pedido"
+                  />
+                <img src="img/edit-icon.png" alt="Ícone de Edição" />
+              </td>
+            </tr>
+            <tr>
+              <td>#0002</td>
+              <td>Cláudia Abreu Santos</td>
+              <td>27/03/2023</td>
+              <td>Enviado</td>
+              <td>R$ 0,00</td>
+              <td>
+                  <img
+                    src="img/info-icon.png"
+                    alt="Ícone de detalhes do pedido"
+                  />
+                <img src="img/edit-icon.png" alt="Ícone de Edição" />
+              </td>
+            </tr>
+            <tr>
+              <td>#0003</td>
+              <td>Jonas Aparecido da Costa</td>
+              <td>29/03/2023</td>
+              <td>Enviado</td>
+              <td>R$ 550,00</td>
+              <td>
+                  <img
+                    src="img/info-icon.png"
+                    alt="Ícone de detalhes do pedido"
+                  />
+                <img src="img/edit-icon.png" alt="Ícone de Edição" />
+              </td>
+            </tr>
+            <tr>
+              <td>#0004</td>
+              <td>Carlos de Almeida Andrade</td>
+              <td>30/03/2023</td>
+              <td>Enviado</td>
+              <td>R$ 1400,00</td>
+              <td>
+                  <img
+                    src="img/info-icon.png"
+                    alt="Ícone de detalhes do pedido"
+                  />
+                <img src="img/edit-icon.png" alt="Ícone de Edição" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+
+      <!-- Botões de navegação -->
+      <div class="nav-buttons" style="margin-top: 20px;display: flex;justify-content: end;">
+        <button class="btn-primary" style="margin-right: 10px;">Voltar página</button>
+        <button class="btn-primary">Próxima página</button>
+      </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <!-- Contêiner principal do footer -->
+
+        <!-- Seção de informações de contato -->
+        <div class="contact-info">
+          <p>
+          <!-- Ícone de telefone com texto -->
+          <img src="img/phone-icon.png" alt="Ícone de telefone" />
+          (28) 3334-9420
+          </p>
+
+          <p>
+          <!-- Ícone de email com link para enviar email -->
+          <img src="img/email-icon.png" alt="Ícone de email" />
+          <a href="mailto:contato@noterepair.com">contato@noterepair.com</a>
+          </p>
+
+          <p>
+          <!-- Ícone do Instagram com link para perfil externo -->
+          <img src="img/instagram-icon.png" alt="Ícone do Instagram" />
+          <a href="https://instagram.com/noterepair" target="_blank"
+            >@noterepair</a
+          >
+          </p>
+        </div>
+
+        <!-- Seção de copyright -->
+        <div class="copyright">
+          <p>NoteRepair &copy; 2024 - Todos os Direitos Reservados</p>
+          <!-- Exibe o aviso de copyright -->
+        </div>
+      </div>
+    </footer>
+    <script src="js/header.js"></script>
+    <script src="js/modal.js"></script>
+  </body>
+</html>
