@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/sections/hero.css" />
+    <link rel="stylesheet" href="css/sections/sobre.css" />
+    <link rel="stylesheet" href="css/sections/missao.css" />
+    <link rel="stylesheet" href="css/sections/contato.css" />
+    <link rel="stylesheet" href="css/components/header.css" />
+    <link rel="stylesheet" href="css/components/footer.css" />
+    <link rel="stylesheet" href="css/components/modal.css" />
+    <link rel="stylesheet" href="css/components/input.css" />
+    <link rel="stylesheet" href="css/components/botao.css" />
+    <link rel="stylesheet" href="css/components/autenticacao.css" />
+    <title>NoteRepair - Home</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <a href="index.html">
+          <img src="img/noterepair-logo.png" alt="NoteRepair Logo" />
+        </a>
+      </div>
+
+      <nav class="header__menu">
+        <a href="index.html" id="header__menu--active">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#missao">Missão</a>
+        <a href="#contato">Contato</a>
+        <a href="pedido_de_orcamento.html" class="disable-decorations"
+          ><button class="btn-primary">Solicitar Orçamento</button></a
+        >
+      </nav>
+
+      <button type="button" id="header__mobile_btn_nav"></button>
+      <div class="header__mobile_menu"></div>
+    </header>
+
+    <section class="hero-container">
+      <div class="hero-description">
+        <img src="img/noterepair-logo.png" />
+        <p class="hero-text">
+        Assistência técnica <b>rápida</b> e <b>confiável</b> para notebooks.<br />Confie na
+          NoteRepair!
+        </p>
+        <div class="btn-gap">
+          <button class="btn-hero btn-modal" modalTarget="modal-cadastro">
+            Cadastro
+          </button>
+          <button class="btn-hero btn-modal" modalTarget="modal-login">
+            Login
+          </button>
+        </div>
+      </div>
+
+      <div class="hero-img">
+        <img src="img/hero-image.png" />
+      </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+      <div class="sobre-container">
+        <h2>Sobre</h2>
+        <p class="sobre-description">
+          A NoteRepair é uma empresa especializada em assistência técnica para
+          notebooks. Desde 2013, temos como missão oferecer soluções rápidas e
+          eficazes para problemas técnicos de diversos níveis, sempre com foco
+          na satisfação e segurança dos nossos clientes. Nosso time é composto
+          por técnicos altamente qualificados, preparados para lidar com as mais
+          variadas marcas e modelos, proporcionando um serviço de qualidade e
+          confiança. Com uma abordagem transparente e atendimento personalizado,
+          garantimos que cada cliente receba o suporte necessário para prolongar
+          a vida útil de seus aparelhos. Ao longo dos anos, aprimoramos nossas
+          técnicas e investimos em tecnologia de ponta, consolidando a
+          NoteRepair como uma referência em manutenção e reparos. Em 2024,
+          estamos ainda mais comprometidos em trazer inovação e excelência para
+          atender as necessidades dos nossos clientes e parceiros.
+        </p>
+        <div class="bg-gray">
+          <img class="setinha" src="img/timeline-arrow.png" />
+          <img class="bolinha1" src="img/timeline-point.png" />
+          <p class="comment1">2013</p>
+          <img class="bolinha2" src="img/timeline-point.png" />
+          <p class="comment2">2014</p>
+          <img class="bolinha3" src="img/timeline-point.png" />
+          <p class="comment3">2020</p>
+          <img class="bolinha4" src="img/timeline-point.png" />
+          <p class="comment4">2024</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mission" id="missao">
+      <div class="mission-container">
+        <h2>Missão e Valores</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img class="circulo" src="img/missao-e-valores-background.png" />
+            <img class="icon" src="img/target-icon.png" />
+            <p>
+              Nossa missão é proporcionar um serviço de assistência técnica
+              confiável, rápido e acessível, atendendo às necessidades de nossos
+              clientes com transparência e profissionalismo. Buscamos sempre
+              entregar soluções de alta qualidade, devolvendo a funcionalidade e
+              prolongando a vida útil de cada dispositivo que passa por nossas
+              mãos.
+            </p>
+          </div>
+          <div class="card">
+            <img class="circulo" src="img/missao-e-valores-background.png" />
+            <img class="icon" src="img/mountain-icon.png" />
+            <p>
+              Ser reconhecida como a principal empresa de assistência técnica em
+              notebooks e dispositivos eletrônicos na região, destacando-se pela
+              excelência no atendimento e pela inovação nos serviços prestados.
+              Visamos expandir nossas operações para oferecer suporte de
+              qualidade a um público cada vez maior.
+            </p>
+          </div>
+          <div class="card">
+            <img class="circulo" src="img/missao-e-valores-background.png" />
+            <img class="icon" src="img/recycle-icon.png" />
+            <p>
+              Prezamos pelo compromisso com a qualidade, ética e
+              sustentabilidade em todas as etapas do nosso trabalho. Valorizamos
+              o respeito ao cliente, a transparência em nossas práticas e a
+              responsabilidade ambiental, realizando o descarte adequado de
+              peças e incentivando o consumo consciente.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contato">
+      <div class="contact-text">
+        <h1>Contato</h1>
+        <h3>
+          Endereço: Rua dos Técnicos, 123 - Centro, São Paulo, SP, 01000-000
+        </h3>
+        <h3>Telefone: (11) 1234-5678</h3>
+        <h3>Redes Sociais: @noterepair</h3>
+        <p>Quer receber notificações?</p>
+        <input
+          type="text"
+          id="text"
+          placeholder="Digite seu melhor e-mail aqui"
+        />
+        <div class="end">
+          <button class="btn-primary">Enviar</button>
+        </div>
+      </div>
+
+      <div class="contact-img">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d357575.607779406!2d-74.04222549942749!3d45.55918748901291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a541c64b70d%3A0x654e3138211fefef!2sMontreal%2C%20Quebec!5e0!3m2!1spt-BR!2sca!4v1721223225351!5m2!1spt-BR!2sca"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <!-- Contêiner principal do footer -->
+
+        <!-- Seção de informações de contato -->
+        <div class="contact-info">
+          <p>
+            <!-- Ícone de telefone com texto -->
+            <img src="img/phone-icon.png" alt="Ícone de telefone" />
+            (28) 3334-9420
+          </p>
+
+          <p>
+            <!-- Ícone de email com link para enviar email -->
+            <img src="img/email-icon.png" alt="Ícone de email" />
+            <a href="mailto:contato@noterepair.com">contato@noterepair.com</a>
+          </p>
+
+          <p>
+            <!-- Ícone do Instagram com link para perfil externo -->
+            <img src="img/instagram-icon.png" alt="Ícone do Instagram" />
+            <a href="https://instagram.com/noterepair" target="_blank"
+              >@noterepair</a
+            >
+          </p>
+        </div>
+
+        <!-- Seção de copyright -->
+        <div class="copyright">
+          <p>NoteRepair &copy; 2024 - Todos os Direitos Reservados</p>
+          <!-- Exibe o aviso de copyright -->
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modais -->
+    <div class="modal__frame" id="modal-cadastro">
+      <div class="modal__frame__box modal__box_auth">
+        <div class="modal__box_content">
+          <div class="box_auth_logo">
+            <img src="img/noterepair-logo.png" class="logo" />
+            <h1 class="box_auth_title">NoteRepair</h1>
+          </div>
+          <div class="box_auth_form">
+            <h1 class="auth_form_title">Cadastro</h1>
+            <form>
+              <div class="form-field large-form-field">
+                <input type="text" placeholder="Nome completo" />
+              </div>
+              <div class="form-field large-form-field">
+                <input type="email" placeholder="Seu email" />
+              </div>
+              <div class="form-field large-form-field">
+                <input type="password" placeholder="Sua senha" />
+              </div>
+              <div class="form-field large-form-field">
+                <input type="password" placeholder="Confirmar senha" />
+              </div>
+              <div class="form-btn">
+                <button type="submit">
+                  <img
+                    src="img/add-user-male-icon.png"
+                    alt="Ícone Cadastrar"
+                  />Cadastrar
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal__frame" id="modal-login">
+      <div class="modal__frame__box modal__box_auth">
+        <div class="modal__box_content">
+          <div class="box_auth_logo">
+            <img src="img/noterepair-logo.png" class="logo" />
+            <h1 class="box_auth_title">NoteRepair</h1>
+          </div>
+          <div class="box_auth_form">
+            <h1 class="auth_form_title">Entrar</h1>
+            <form action="cadastro_e_gerenciamento.html">
+              <div class="form-field large-form-field">
+                <input type="email" placeholder="Seu email" />
+              </div>
+              <div class="form-field large-form-field">
+                <input type="password" placeholder="Sua senha" />
+              </div>
+              <div class="form-btn large-form-field">
+                <button type="submit">
+                  <img
+                    src="img/enter-icon.png"
+                    alt="Ícone Entrar"
+                  />Entrar
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/modal.js"></script>
+    <script src="js/header.js"></script>
+  </body>
+</html>
