@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/favicon/site.webmanifest" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/components/header.css" />
+    <link rel="stylesheet" href="css/components/footer.css" />
+    <link rel="stylesheet" href="css/components/modal.css" />
+    <link rel="stylesheet" href="css/components/input.css" />
+    <link rel="stylesheet" href="css/components/botao.css" />
+    <title>NoteRepair - Pedido de Orçamento</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <a href="index.html">
+          <img src="img/noterepair-logo.png" alt="NoteRepair Logo" />
+        </a>
+      </div>
+
+      <nav class="header__menu">
+        <a href="lista_de_reparos_cliente.html">Lista de Reparos</a>
+        <a href="status_reparo_cliente.html" id="header__menu--active"
+          >Pedido de Orçamento</a
+        >
+        <a href="status_reparo_cliente.html">Status de Reparo</a>
+        <span class="username">Olá, João</span>
+      </nav>
+
+      <button type="button" id="header__mobile_btn_nav"></button>
+      <div class="header__mobile_menu"></div>
+    </header>
+
+    <main class="container">
+      <section class="container-content">
+        <header class="container-content-header">
+          <h1 class="content-header-title">Pedido de Orçamento</h1>
+        </header>
+
+        <div>
+          <form>
+            <div class="orcamento-form">
+              <div class="form-section">
+                <div class="form-field">
+                  <label for="marca">Marca:<span style="color: red;"> *</span></label>
+                  <select name="marca" id="marca" required>
+                    <option value="" disabled selected>Selecione a marca</option>
+                    <option value="marca1">Marca 1</option>
+                    <option value="marca2">Marca 2</option>
+                    <option value="marca3">Marca 3</option>
+                    <option value="marca4">Marca 4</option>
+                    <option value="marca5">Marca 5</option>
+                  </select>
+                </div>
+                <div class="form-field">
+                  <label for="modelo">Modelo:<span style="color: red;"> *</span></label>
+                  <input type="text" name="modelo" id="modelo" required />
+                </div>
+                <div class="form-field">
+                  <label for="descricao">Descrição do Problema:<span style="color: red;"> *</span></label>
+                  <textarea rows="28" cols="50" id="descricao" required></textarea>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-section">
+                  <h1 class="form-section-title">Endereço da Coleta</h1>
+                  <div class="form-field">
+                    <label for="cep-coleta">CEP:<span style="color: red;"> *</span></label>
+                    <input
+                      type="text"
+                      name="cep-coleta"
+                      id="cep-coleta"
+                      maxlength="9"
+                      required
+                    />
+                  </div>
+                  <div class="form-field">
+                    <label for="bairro-coleta">Bairro:<span style="color: red;"> *</span></label>
+                    <input
+                      type="text"
+                      name="bairro-coleta"
+                      id="bairro-coleta"
+                      required
+                    />
+                  </div>
+                  <div class="form-field">
+                    <label for="logradouro-coleta">Logradouro:<span style="color: red;"> *</span></label>
+                    <input
+                      type="text"
+                      name="logradouro-coleta"
+                      id="logradouro-coleta"
+                      required
+                    />
+                  </div>
+                  <div class="form-field">
+                    <label for="complemento-coleta">Complemento:</label>
+                    <input
+                      type="text"
+                      name="complemento-coleta"
+                      id="complemento-coleta"
+                    />
+                  </div>
+                  <div class="form-field">
+                    <label for="data-coleta">Data de Coleta:<span style="color: red;"> *</span></label>
+                    <input
+                      type="date"
+                      name="data-coleta"
+                      id="data-coleta"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <!-- Início da seção de Endereço da Entrega -->
+                <div class="form-section">
+                  <h1 class="form-section-title">Endereço da Entrega</h1>
+                  <div class="form-field inline">
+                    <span
+                      ><input
+                        type="checkbox"
+                        name="mesmo_da_coleta"
+                        id="mesmo_da_coleta"
+                      />
+                      <label for="mesmo_da_coleta">Mesmo da Coleta<label></span
+                    >
+                  </div>
+
+                  <!-- Envolvendo os campos de entrega a partir do CEP -->
+                  <div id="endereco-entrega-campos">
+                    <div class="form-field">
+                      <label for="cep-entrega">CEP:<span style="color: red;"> *</span></label>
+                      <input
+                        type="text"
+                        name="cep-entrega"
+                        id="cep-entrega"
+                        maxlength="9"
+                        required
+                      />
+                    </div>
+                    <div class="form-field">
+                      <label for="bairro-entrega">Bairro:<span style="color: red;"> *</span></label>
+                      <input
+                        type="text"
+                        name="bairro-entrega"
+                        id="bairro-entrega"
+                        required
+                      />
+                    </div>
+                    <div class="form-field">
+                      <label for="logradouro-entrega">Logradouro:<span style="color: red;"> *</span></label>
+                      <input
+                        type="text"
+                        name="logradouro-entrega"
+                        id="logradouro-entrega"
+                        required
+                      />
+                    </div>
+                    <div class="form-field">
+                      <label for="complemento-entrega">Complemento:</label>
+                      <input
+                        type="text"
+                        name="complemento-entrega"
+                        id="complemento-entrega"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <!-- Fim da seção de Endereço da Entrega -->
+              </div>
+            </div>
+            <div class="form-btn form-btn-centerized">
+              <button type="submit">
+                <img
+                  src="img/submit-document-icon.png"
+                  alt=""
+                />Enviar Orçamento
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <!-- Contêiner principal do footer -->
+        <div class="contact-info">
+          <p>
+            <img src="img/phone-icon.png" alt="Ícone de telefone" /> (28)
+            3334-9420
+          </p>
+          <p>
+            <img src="img/email-icon.png" alt="Ícone de email" />
+            <a href="mailto:contato@noterepair.com">contato@noterepair.com</a>
+          </p>
+          <p>
+            <img src="img/instagram-icon.png" alt="Ícone do Instagram" />
+            <a href="https://instagram.com/noterepair" target="_blank"
+              >@noterepair</a
+            >
+          </p>
+        </div>
+        <div class="copyright">
+          <p>NoteRepair &copy; 2024 - Todos os Direitos Reservados</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- scripts -->
+    <script src="js/header.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/pedido_de_orcamento.js"></script>
+  </body>
+</html>
