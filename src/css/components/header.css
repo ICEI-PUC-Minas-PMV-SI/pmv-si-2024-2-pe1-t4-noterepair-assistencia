@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #fff;
+}
+
+.header__logo img {
+  width: 80px;
+}
+
+.header__menu {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__menu a {
+  margin-left: 40px;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.header__menu a:last-child {
+  margin-right: 40px;
+}
+
+.header__menu span.username {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 40px;
+  user-select: none;
+}
+
+.header__menu a:not(.disable-decorations)::after {
+  content: "";
+  display: flex;
+  margin: 0 auto;
+  width: 0%;
+  height: 3px;
+  background: #004bad;
+  margin-top: 2px;
+  border-radius: 3px;
+  transition: 0.3s width;
+}
+
+.header__menu a#header__menu--active {
+  font-weight: 500;
+}
+
+.header__menu a#header__menu--active::after,
+.header__menu a:hover::after {
+  width: 100%;
+}
+
+#header__mobile_btn_nav {
+  display: flex;
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  border-radius: 3px;
+  width: 35px;
+  height: 30px;
+  background-image: url("../../img/menu-icon.png");
+  background-color: rgb(0, 75, 173);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25px;
+}
+
+#header__mobile_btn_nav.header-active {
+  background-image: url("../../img/close-icon.png");
+}
+
+#header__mobile_btn_nav:hover {
+  background: #004bad50;
+  border: 1px solid #004bad;
+  border-radius: 3px;
+}
+
+#header__mobile_btn_nav img {
+  width: 20px;
+}
+
+.header__mobile_menu {
+  display: none;
+  position: fixed;
+  width: 80%;
+  height: 100%;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+  background-color: #004bad;
+  filter: drop-shadow(0 0 7px #004bad);
+}
+
+.header__mobile_menu--active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header__mobile_menu--active a {
+  margin: 20px 0;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.header__mobile_menu--active span {
+  margin: 20px 0;
+  color: #fff;
+  font-size: 20px;
+  user-select: none;
+}
+
+.header__mobile_menu--active a button {
+  color: #000;
+  background-color: #fff;
+}
+
+@media only screen and (min-width: 640px) {
+  .header__menu {
+    display: flex;
+  }
+  #header__mobile_btn_nav {
+    display: none;
+  }
+  #header__mobile_menu {
+    display: none;
+  }
+}

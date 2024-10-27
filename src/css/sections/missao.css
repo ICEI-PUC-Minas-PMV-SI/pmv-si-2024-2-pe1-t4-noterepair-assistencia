@@ -1,0 +1,275 @@
+.mission {
+  background-color: #a6dced;
+  padding-top: 6rem;
+  padding: 6rem;
+}
+
+.mission-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.mission-container h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 7rem;
+  color: #fff;
+}
+
+.cards-container {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #555161;
+  border-radius: 10px;
+  flex: 1;
+  position: relative;
+}
+
+.card .circulo {
+  position: absolute;
+  top: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card .icon {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card p {
+  line-height: 1.5rem;
+  padding: 25px;
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
+
+@media (max-width: 1024px) {
+  .mission-container h2 {
+    text-align: center;
+  }
+  .card {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #555161;
+    border-radius: 10px;
+    flex: 1;
+    position: relative;
+  }
+
+  .card .circulo {
+    width: 120px;
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .card .icon {
+    width: 60px;
+    position: absolute;
+    top: -17px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .card p {
+    padding: 25px;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 940px) {
+  .mission-container h2 {
+    text-align: center;
+  }
+  .card {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #555161;
+    border-radius: 10px;
+    flex: 1;
+    position: relative;
+  }
+
+  .card .circulo {
+    width: 120px;
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .card .icon {
+    width: 60px;
+    position: absolute;
+    top: -17px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .card p {
+    padding: 25px;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 935px) {
+  .mission-container h2 {
+    text-align: center;
+  }
+  .card {
+    width: 300px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #555161;
+    border-radius: 10px;
+    flex: 1;
+    position: relative;
+  }
+
+  .card .circulo {
+    width: 120px;
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .card .icon {
+    width: 60px;
+    position: absolute;
+    top: -17px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .card p {
+    padding: 25px;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 768px) {
+  .mission-container h2 {
+    text-align: center;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    margin-bottom: 2rem;
+    width: 350px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #555161;
+    border-radius: 10px;
+    flex: 1;
+    position: relative;
+  }
+
+  .card .circulo {
+    width: 75px;
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .card .icon {
+    width: 35px;
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .card p {
+    padding: 25px;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 468px) {
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    margin-bottom: 2rem;
+    width: 225px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #555161;
+    border-radius: 10px;
+    flex: 1;
+    position: relative;
+  }
+
+  .card .circulo {
+    width: 75px;
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .card .icon {
+    width: 35px;
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .card p {
+    padding: 25px;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+  }
+}

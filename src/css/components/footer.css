@@ -1,0 +1,102 @@
+/* Importa a fonte Rubik do Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap");
+
+/* Reset de margens e preenchimentos para todos os elementos */
+* {
+  box-sizing: border-box; /* Garante que padding e borda não aumentem o tamanho do elemento */
+  margin: 0;
+  padding: 0;
+}
+
+/* Define altura completa para html e body, útil para layouts de página inteira */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Rubik", sans-serif; /* Aplica a fonte Rubik */
+  display: flex;
+  flex-direction: column; /* Organiza o conteúdo de cima para baixo */
+}
+
+/* Define que o main ocupa o espaço restante da tela, mantendo o footer no final */
+main {
+  flex: 1;
+}
+
+/* Estilos gerais para o footer */
+footer {
+  background-color: #004bad; /* Fundo azul escuro */
+  color: white; /* Texto branco */
+  padding: 54px 0; /* Espaçamento interno superior e inferior de 20px */
+}
+
+/* Contêiner principal do footer, centralizando e limitando sua largura */
+.footer-container {
+  display: flex;
+  flex-direction: column; /* Organiza o conteúdo do footer verticalmente */
+  align-items: center; /* Centraliza o conteúdo horizontalmente */
+  max-width: 1200px; /* Define uma largura máxima */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilos para a seção de informações de contato */
+.contact-info {
+  display: flex; /* Flexbox para alinhar os itens horizontalmente */
+  justify-content: center; /* Centraliza os itens */
+  gap: 20px; /* Espaçamento entre cada item de contato */
+  margin-bottom: 10px; /* Espaçamento abaixo da seção de contato */
+  color: white; /* Cor do texto */
+}
+
+/* Estilos para cada parágrafo de contato */
+.contact-info p {
+  display: flex; /* Flexbox para alinhar ícone e texto horizontalmente */
+  align-items: center; /* Alinha os itens verticalmente no centro */
+  gap: 5px; /* Espaçamento entre ícone e texto */
+  color: white; /* Define a cor do texto como branco */
+  margin: 0; /* Remove margens extras */
+}
+
+/* Estilos para os ícones de contato */
+.contact-info img {
+  width: 25px; /* Largura fixa para os ícones */
+  height: 25px; /* Altura fixa para os ícones */
+}
+
+/* Estilos para os links de contato */
+.contact-info a {
+  position: relative; /* Define um contexto de posicionamento para o pseudo-elemento ::after */
+  color: white; /* Cor do link */
+  text-decoration: none; /* Remove sublinhado padrão dos links */
+}
+
+/* Estilos para o pseudo-elemento ::after que cria a linha animada embaixo do link */
+.contact-info a::after {
+  content: ""; /* Pseudo-elemento vazio */
+  display: block; /* Comportamento de bloco */
+  margin: 0 auto; /* Centraliza a linha */
+  width: 0%; /* Largura inicial da linha é 0% */
+  height: 2px; /* Altura da linha */
+  background: #ffffff; /* Cor branca para a linha */
+  margin-top: 1px; /* Espaçamento entre o link e a linha */
+  transition: width 0.3s ease; /* Transição suave para a mudança de largura */
+}
+
+/* Efeito hover: A linha se expande ao passar o mouse */
+.contact-info a:hover::after {
+  width: 100%; /* A linha se expande para 100% de largura */
+}
+
+/* Efeito hover: Muda a cor do texto ao passar o mouse */
+.contact-info a:hover {
+  color: #d9d9d9; /* Muda a cor do link para cinza claro */
+}
+
+/* Estilos para a seção de copyright */
+.copyright {
+  text-align: center; /* Centraliza o texto de copyright */
+  font-weight: lighter; /* Estilo de texto mais leve */
+}

@@ -1,0 +1,137 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  gap: 40px;
+  padding: 4rem;
+  padding-bottom: 2rem;
+  position: relative;
+}
+
+.contact h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 4rem;
+}
+
+.contact-text {
+  flex: 1;
+  position: relative;
+}
+
+.contact-img {
+  flex: 1;
+}
+
+.contact-text h3 {
+  margin-bottom: 1rem;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.contact-text p {
+  margin-top: 2.5rem;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.contact-text input {
+  /* background-color: #d1d1d1; */
+  height: auto;
+  padding: 18px;
+  width: 100%;
+  /* border: none; */
+  /* border-radius: 10px; */
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); */
+  /* outline: none; */
+}
+
+.contact-text button {
+  border: none;
+  padding: 8px 45px;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.end button {
+  transition: 0.3s;
+}
+
+.end button:hover {
+  transform: scale(1.05);
+}
+
+.end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 1024px) {
+  .contact-text h1 {
+    font-size: 2rem;
+  }
+
+  .contact-text h3 {
+    font-size: 1.3rem;
+  }
+
+  .contact-text input {
+    width: 100%;
+  }
+
+  .contact-text input::placeholder {
+    font-size: 12px;
+  }
+
+  .end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .end button {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-img iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+  }
+}
+
+@media (max-width: 468px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact iframe {
+    display: none;
+  }
+}
