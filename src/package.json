@@ -1,0 +1,22 @@
+{
+  "name": "NoteRepair",
+  "version": "1.0.0",
+  "description": "Uma plataforma integrada e automatizada que otimiza todo o processo de reparo de notebooks, desde o cadastro inicial do cliente até a entrega do equipamento consertado.",
+  "main": "index.html",
+  "scripts": {
+    "startHTTP": "http-server -p 8080",
+    "startJSON": "json-server --watch ./json-server/db.json",
+    "dev": "concurrently \"npm run startHTTP\" \"npm run startJSON\""
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "json-server": "^1.0.0-beta.3"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
