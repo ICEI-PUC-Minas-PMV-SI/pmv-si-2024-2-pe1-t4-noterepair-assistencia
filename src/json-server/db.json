@@ -1,10 +1,11 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Leanne Graham",
-      "username": "Bret",
-      "email": "HgSdN@example.com"
+      "email": "jv@gmail.com",
+      "password": "$2a$10$W0rxNuW9x/f97CehVoXgOuYzYaZhBFuQEsasgwSlbSHX9eAvu7yce",
+      "nome": "João Victor",
+      "tipo": "cliente",
+      "id": 1
     }
   ]
 }
