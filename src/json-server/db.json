@@ -3,16 +3,23 @@
     {
       "email": "jv@gmail.com",
       "password": "$2a$10$W0rxNuW9x/f97CehVoXgOuYzYaZhBFuQEsasgwSlbSHX9eAvu7yce",
-      "nome": "João Victor",
+      "nome": "João Victor (Cliente)",
       "tipo": "cliente",
       "id": 1
     },
     {
       "email": "jvt@gmail.com",
       "password": "$2a$10$W0rxNuW9x/f97CehVoXgOuYzYaZhBFuQEsasgwSlbSHX9eAvu7yce",
-      "nome": "João Victor Técnico",
+      "nome": "João Victor (Técnico)",
       "tipo": "tecnico",
       "id": 2
+    },
+    {
+      "email": "jvgestor@gmail.com",
+      "password": "$2a$10$83fG9P8rVmETHd2zZfqgLe.Wd3WuK6GD9M0Ugy5Mpg1do9MzJwsCu",
+      "nome": "João Victor (Gestor)",
+      "tipo": "gestor",
+      "id": 3
     }
   ],
   "reparos": [

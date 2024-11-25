@@ -58,9 +58,8 @@
           </div>
         </header>
 
-        <!-- Tabela de Relatórios -->
         <div class="responsive-table-container">
-        <table>
+        <table id="tabela-colaboradores">
           <thead>
             <tr>
               <th>Nome</th>
@@ -69,59 +68,7 @@
               <th>&nbsp;</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td>Nicolas Santos Barbosa</td>
-              <td>NicolasSantosBarbosa@email.us</td>
-              <td>
-                Técnico
-                <img
-                  src="img/down-icon.png"
-                  alt="Ícone de seta para baixo"
-                  class="arrow"
-                />
-              </td>
-              <td>
-                <img
-                  src="img/trash-icon.png"
-                />
-              </td>
-            </tr>
-            <tr>
-              <td>Alice Souza Gomes</td>
-              <td>AliceSouzaGomes@email.com</td>
-              <td>
-                Gestor
-                <img
-                  src="img/down-icon.png"
-                  alt="Ícone de seta para baixo"
-                  class="arrow"
-                />
-              </td>
-              <td>
-                <img
-                  src="img/trash-icon.png"
-                />
-              </td>
-            </tr>
-            <tr>
-              <td>Emily Cavalcanti Melo</td>
-              <td>EmilyCavalcantiMelo@jourrapide.com</td>
-              <td>
-                Técnico
-                <img
-                  src="img/down-icon.png"
-                  alt="Ícone de seta para baixo"
-                  class="arrow"
-                />
-              </td>
-              <td>
-                <img
-                  src="img/trash-icon.png"
-                />
-              </td>
-            </tr>
-          </tbody>
+          <tbody></tbody>
         </table>
         </div>
       </section>
@@ -134,21 +81,22 @@
             src="img/close-black-icon.png"
           />
         </button>
+        <form id="form-editar-colaborador"></form>
         <div class="modal__box_content">
           <!-- Conteudo aqui -->
           <h1 class="modal-title">Novo Colaborador</h1>
-          <form class="modal-form">
+          <form class="modal-form" id="form-cadastro-colaborador">
             <div class="form-field">
-              <label for="nome-completo">Nome Completo:</label>
-              <input type="text" name="nome-completo" id="nome-completo" />
+              <label for="nome">Nome Completo:</label>
+              <input type="text" name="nome" id="nome" required />
             </div>
             <div class="form-field">
               <label for="email">Email:</label>
-              <input type="email" name="email" id="email" />
+              <input type="email" name="email" id="email" required />
             </div>
             <div class="form-field">
               <label for="permissao">Permissão:</label>
-              <select name="permissao" id="permissao">
+              <select name="permissao" id="permissao" required>
                 <option value="gestor">Gestor</option>
                 <option value="tecnico">Técnico</option>
               </select>
@@ -202,5 +150,6 @@
     </footer>
     <script src="js/header.js"></script>
     <script src="js/modal.js"></script>
+    <script src="js/cadastro_e_gerenciamento.js"></script>
   </body>
 </html>
