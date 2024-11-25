@@ -150,7 +150,7 @@
 }
 
 #orcamento {
-  width: 30%;
+  flex: 3;
   background-color: #d4d4d4;
   border-radius: 5px;
   padding: 15px;
@@ -167,9 +167,10 @@
   justify-content: center;
 }
 
-#botao-voltar-status {
-  background-color: #9c9c9c;
+#botao-voltar-status { /* #9c */
+  background-color: #a8a8a8;
   color: black;
+  cursor: pointer;
 }
 
 #botao-proximo-status,
@@ -177,6 +178,10 @@
   background-color: #0056b3;
   color: white;
   cursor: pointer;
+}
+
+#botao-voltar-status:hover, #botao-proximo-status:hover, #botao-enviar-orcamento:hover {
+  filter: brightness(0.9);
 }
 
 #botao-proximo-status {
@@ -203,3 +208,153 @@
 .linha-hor {
   width: 30px;
 }
+
+.status-reparo {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.titulo-reparo {
+  margin-bottom: 20px;
+}
+
+.linha-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e9e9e9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.etapa {
+  flex: 1;
+  text-align: center;
+  position: relative;
+  padding-top: 20px;
+}
+
+.bolinha {
+  width: 15px;
+  height: 15px;
+  background-color: #9e9e9e;
+  border-radius: 50%;
+  margin: 0 auto 5px;
+}
+
+.etapa.concluida .bolinha {
+  background-color: #28a745;
+}
+
+@keyframes em_progresso_animacacao {
+  0% {
+    background-color: #ffd454;
+    transform: scale(1);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    background-color: #ffc107;
+    transform: scale(1.15);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  100% {
+    background-color: #edb100;
+    transform: scale(1);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+}
+
+.etapa.em_progresso .bolinha {
+  background-color: #ffc107;
+  animation-name: em_progresso_animacacao;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.container-reparo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  align-items: start;
+}
+
+.chat-reparo {
+  flex: 7;
+  background-color: #e9e9e9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#container-mensagens {
+  display: flex;
+  flex-direction: column;
+  height: 363px;
+  align-content: end;
+  min-height: 0;
+  overflow: auto;
+}
+
+.mensagem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 70%;
+  margin-left: 10px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.alinhado-direita {
+  width: fit-content;
+  margin-left: auto;
+  background-color: #e6f7ff;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 70%;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.send-icon {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 25px solid #0058a2; /* Cor do ícone */
+  cursor: pointer; /* Cursor muda para indicar clicável */
+  transition: border-left-color  0.2s;
+}
+
+.send-icon:hover {
+  border-left-color: rgba(0, 88, 162, 0.85);
+}
+
+#formulario-mensagem {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espaço entre o campo de texto e o ícone */
+}
+
+#formulario-mensagem button {
+  border: none;
+}
+
+.caixa-mensagem {
+  flex: 1; /* Faz o campo de entrada ocupar o máximo de espaço possível */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#texto-orcamento {
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
