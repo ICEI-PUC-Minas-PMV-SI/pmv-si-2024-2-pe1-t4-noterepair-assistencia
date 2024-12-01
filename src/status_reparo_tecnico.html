@@ -29,10 +29,6 @@
         <a href="lista_de_reparos_tecnico.html"
           >Lista de Reparos</a
         >
-        <a href="status_reparo_tecnico.html"
-          id="header__menu--active"
-          >Status de Reparo</a
-        >
         <span class="username">Olá, João</span>
       </nav>
 
@@ -43,50 +39,52 @@
     <main class="container">
       <section class="container-content">
         <header class="container-content-header">
-          <h1 class="content-header-title">Status do Reparo - #0001</h1>
+          <h1 class="content-header-title">Status do Reparo - <span class="reparo-id"></span></h1>
         </header>
 
         <!-- Conteúdo Antigo Aqui -->
 
         <!-- Linha de status -->
-        <div id="linha-status">
-          <div class="status-item">
-            <span class="status-indicador azul"></span> Em análise
+        <section class="status-reparo">
+          <div class="titulo-reparo"></div>
+          <div class="linha-status">
+            <div class="etapa" id="etapa-em-analise">
+              <div class="bolinha"></div>
+              Em análise
+            </div>
+            <div class="etapa" id="etapa-manutencao">
+              <div class="bolinha"></div>
+              Manutenção
+            </div>
+            <div class="etapa" id="etapa-enviado">
+              <div class="bolinha"></div>
+              Enviado
+            </div>
+            <div class="etapa" id="etapa-concluido">
+              <div class="bolinha"></div>
+              Concluído
+            </div>
           </div>
-          <div class="status-item">
-            <span class="status-indicador vermelho"></span> Manutenção
-          </div>
-          <div class="status-item">
-            <span class="status-indicador cinza"></span> Enviado
-          </div>
-        </div>
+          <br />
+          <br />
+          <h2 style="text-align: left">Reparo <span class="reparo-id"></span> - Chat com técnico</h2>
+        </section>
         
         <!-- Chat do técnico -->
-        <div id="chat-tecnico">
-          <div id="chat-mensagem">
-            <h4>Reparo #0001 - Chat</h4>
-            <hr id="linha-hor" />
-            <br /><br />
-            <div class="mensagem-tecnico">
-              <p style="text-align: right">
-              Prezado cliente, após uma análise do caso #0001,<br />
-              o orçamento é de R$ 900,00.
-              </p>
-            </div>
-            <div class="mensagem-cliente">
-              <p style="text-align: left">Caro, NÃO ARRUMA</p>
-            </div>
-            <div class="mensagem-tecnico2">
-              <p style="text-align: right">
-              Entendido! Então estaremos realizando <br />o envio do produto sem
-              a manutenção ou intervenção técnica.
-              </p>
-            </div>
-            <div class="input-container">
-              <input type="text" placeholder="Digite aqui" />
-              <button class="botao-enviar"></button>
-            </div>
-          </div>
+        <div class="container-reparo">
+          <section class="chat-reparo">
+            <div id="container-mensagens"></div>
+            <form id="formulario-mensagem">
+              <input
+              type="text"
+              class="caixa-mensagem"
+              placeholder="Digite aqui"
+              name="mensagem"
+              autocomplete="off"
+              />
+              <button href="#"><div class="send-icon"></div></button>
+            </form>
+          </section>
           
           <!-- Seção de Orçamento -->
           <div id="orcamento">
@@ -94,22 +92,26 @@
             <button id="botao-proximo-status">Próximo status</button>
             <br />
             <hr />
-            <div id="caixa-orcamento">
-              <h3>Orçamento</h3>
-            </div>
-            
-            <p>
-            O motivo do problema apresentado se encontra em um componente da
-            placa-mãe do equipamento, o reparo pode ser realizado com um
-            orçamento de R$ 900,00.
-            </p>
-            <br />
-            <hr />
-            <br />
-            <button id="botao-enviar-orcamento">Enviar orçamento</button>
+            <form id="formulario-orcamento">
+              <div id="caixa-orcamento">
+                <h3>Orçamento</h3>
+              </div>
+              <div class="form-field">
+                <label for="orcamento-descricao">Descrição:</label>
+                <textarea rows="5" cols="25" id="orcamento-descricao" name="orcamento-descricao" required></textarea>
+              </div>
+              <div class="form-field">
+                <label for="orcamento-valor">Valor:</label>
+                <input type="number" id="orcamento-valor" name="orcamento-valor" min=0 value="0,00" step=".01" required />
+              </div>
+              <hr />
+              <br />
+              <button id="botao-enviar-orcamento">Enviar orçamento</button>
+            </form>
           </div>
         </div>
       </section>
+      <div>
     </main>
 
     <footer>
@@ -147,5 +149,6 @@
       </div>
     </footer>
     <script src="js/header.js"></script>
+    <script src="js/status_reparo.js"></script>
   </body>
 </html>

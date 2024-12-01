@@ -1,5 +1,9 @@
-
-
+const STATUS = {
+  "em-analise": "Em análise",
+  "em-manutencao": "Em Manutenção",
+  enviado: "Enviado",
+  concluido: "Concluído",
+};
 
 const tabelaReparos = document.querySelector("table tbody");
 
@@ -16,14 +20,15 @@ async function carregarReparos() {
     reparos.forEach((reparo) => {
       const tr = document.createElement("tr");
       tr.innerHTML = `
-        <td>${reparo.id}</td>
+        <td>#${reparo.id}</td>
         <td>${reparo.cliente}</td>
         <td>${reparo.data}</td>
-        <td>${reparo.status}</td>
-        <td>${reparo.valor}</td>
+        <td>${STATUS[reparo.status]}</td>
+        <td>R$ ${reparo.orcamento_valor}</td>
         <td>
-          <img src="img/info-icon.png" alt="Ícone de detalhes do pedido" />
-          <img src="img/edit-icon.png" alt="Ícone de edição" />
+          <a href="status_reparo_tecnico.html?id=${reparo.id}">
+            <img src="img/info-icon.png" alt="Ícone de detalhes do pedido" />
+          </a>
         </td>
       `;
       tabelaReparos.appendChild(tr);
