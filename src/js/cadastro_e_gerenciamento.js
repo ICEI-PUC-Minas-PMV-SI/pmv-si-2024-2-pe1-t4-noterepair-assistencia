@@ -78,6 +78,7 @@ formCadastroColaborador.addEventListener("submit", (e) => {
         return;
       }
 
+      loadTable();
       alert("Cadastro realizado com sucesso");
     })
     .catch((error) => {

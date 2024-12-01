@@ -36,11 +36,12 @@ formCadastro.addEventListener("submit", async (e) => {
     },
   })
     .then(async (response) => {
-      if (response.status != 201) {
+      if (!response.ok) {
         alert("Erro ao cadastrar usuário. O email já está em uso!");
         return;
       }
 
+      formCadastro.reset();
       alert("Cadastro realizado com sucesso");
     })
     .catch((error) => {
@@ -70,7 +71,7 @@ formLogin.addEventListener("submit", async (e) => {
       "Content-Type": "application/json",
     },
   }).then(async (response) => {
-    if (response.status == 200) {
+    if (response.ok) {
       const data = await response.json();
 
       localStorage.setItem("token", data.accessToken);
@@ -86,6 +87,7 @@ formLogin.addEventListener("submit", async (e) => {
         alert("Erro ao logar. Tente novamente");
       }
     }
+    alert(await response.text());
   });
 });
 
