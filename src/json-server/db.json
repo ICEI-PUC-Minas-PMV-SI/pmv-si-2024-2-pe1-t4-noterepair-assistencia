@@ -3,9 +3,143 @@
     {
       "email": "jv@gmail.com",
       "password": "$2a$10$W0rxNuW9x/f97CehVoXgOuYzYaZhBFuQEsasgwSlbSHX9eAvu7yce",
-      "nome": "João Victor",
+      "nome": "João Victor (Cliente)",
       "tipo": "cliente",
       "id": 1
+    },
+    {
+      "email": "jvt@gmail.com",
+      "password": "$2a$10$W0rxNuW9x/f97CehVoXgOuYzYaZhBFuQEsasgwSlbSHX9eAvu7yce",
+      "nome": "João Victor (Técnico)",
+      "tipo": "tecnico",
+      "id": 2
+    },
+    {
+      "email": "jvgestor@gmail.com",
+      "password": "$2a$10$83fG9P8rVmETHd2zZfqgLe.Wd3WuK6GD9M0Ugy5Mpg1do9MzJwsCu",
+      "nome": "João Victor (Gestor)",
+      "tipo": "gestor",
+      "id": 3
+    }
+  ],
+  "reparos": [
+    {
+      "id": 1,
+      "status": "em-manutencao",
+      "reparo_id": "1",
+      "valor": 0,
+      "orcamento_descricao": "Isso é problema de junta!!! Junta tudo e joga fora.",
+      "orcamento_valor": "98.99"
+    }
+  ],
+  "chats": [
+    {
+      "id": 1,
+      "reparo_id": 1
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "chat_id": 1,
+      "sender_id": 2,
+      "message": "Olá, tudo bem?"
+    },
+    {
+      "id": 2,
+      "chat_id": 1,
+      "sender_id": 1,
+      "message": "Opa, tudo bem e com você?"
+    },
+    {
+      "message": "Bla bla",
+      "sender_id": 1,
+      "chat_id": 1,
+      "id": 3
+    },
+    {
+      "message": "sadf",
+      "sender_id": 1,
+      "chat_id": 1,
+      "id": 4
+    },
+    {
+      "message": "fasd",
+      "sender_id": 1,
+      "chat_id": 1,
+      "id": 5
+    },
+    {
+      "message": "asdf",
+      "sender_id": 1,
+      "chat_id": 1,
+      "id": 6
+    },
+    {
+      "message": "asd",
+      "sender_id": 1,
+      "chat_id": 1,
+      "id": 7
+    },
+    {
+      "message": "asdfdsaf",
+      "sender_id": 1,
+      "chat_id": 1,
+      "id": 8
+    },
+    {
+      "message": "asfdsaf",
+      "sender_id": 1,
+      "chat_id": 1,
+      "id": 9
+    },
+    {
+      "message": "fasdfsadf",
+      "sender_id": 2,
+      "chat_id": 1,
+      "id": 10
+    },
+    {
+      "message": "asdf",
+      "sender_id": 2,
+      "chat_id": 1,
+      "id": 11
+    },
+    {
+      "message": "Alou",
+      "sender_id": 2,
+      "chat_id": 1,
+      "id": 12
+    },
+    {
+      "message": "asf",
+      "sender_id": 1,
+      "chat_id": 1,
+      "id": 13
+    },
+    {
+      "message": "Ping",
+      "sender_id": 2,
+      "chat_id": 1,
+      "id": 14
+    },
+    {
+      "message": "Pong",
+      "sender_id": 1,
+      "chat_id": 1,
+      "id": 15
+    },
+    {
+      "message": "Mensagem",
+      "sender_id": 2,
+      "chat_id": 1,
+      "id": 16
+    },
+    {
+      "message": "Mensagem 2",
+      "sender_id": 2,
+      "chat_id": 1,
+      "id": 17
     }
   ]
 }

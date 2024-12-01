@@ -43,66 +43,46 @@
     <main class="container">
       <section class="container-content">
         <header class="container-content-header">
-          <h1 class="content-header-title">Status do Reparo - #0001</h1>
+          <h1 class="content-header-title">Status do Reparo - <span class="reparo-id"></span></h1>
         </header>
-
-        <!-- Conteúdo Antigo Aqui -->
 
         <section class="status-reparo">
           <div class="titulo-reparo"></div>
           <div class="linha-status">
-            <div class="etapa concluida">
-              <div class="bolinha"></div>
-              Coletado
-            </div>
-            <div class="etapa">
+            <div class="etapa" id="etapa-em-analise">
               <div class="bolinha"></div>
               Em análise
             </div>
-            <div class="etapa">
+            <div class="etapa" id="etapa-manutencao">
               <div class="bolinha"></div>
               Manutenção
             </div>
-            <div class="etapa">
+            <div class="etapa" id="etapa-enviado">
               <div class="bolinha"></div>
               Enviado
             </div>
-            <div class="etapa">
+            <div class="etapa" id="etapa-concluido">
               <div class="bolinha"></div>
-              A caminho
-            </div>
-            <div class="etapa">
-              <div class="bolinha"></div>
-              Recebido
+              Concluído
             </div>
           </div>
           <br />
           <br />
-          <h2 style="text-align: left">Reparo #0001 - Chat com técnico</h2>
+          <h2 style="text-align: left">Reparo <span class="reparo-id">0001</span> - Chat com técnico</h2>
         </section>
 
         <section class="chat-reparo">
-          <div class="mensagem-tecnico">
-            <div class="texto">
-              <strong>Técnico Gabriel:</strong>
-              <p>
-                Prezado cliente, coletamos seu equipamento e seguiremos com a analise
-              </p>
-            </div>
-          </div>
-          <div class="mensagem-cliente">
-            <div class="texto alinhado-direita">
-              <p>Certo, obrigado.</p>
-              <p>Aguardo seu retorno.</p>
-            </div>
-          </div>
-          <div class="input-container">
+          <div id="container-mensagens"></div>
+          <form id="formulario-mensagem">
             <input
               type="text"
               class="caixa-mensagem"
               placeholder="Digite aqui"
+              name="mensagem"
+              autocomplete="off"
             />
-            <a href="#"><div class="send-icon"></div></a>
+            <button href="#"><div class="send-icon"></div></button>
+          </form>
         </section>
       </section>
     </main>
@@ -142,5 +122,6 @@
       </div>
     </footer>
     <script src="js/header.js"></script>
+    <script src="js/status_reparo.js"></script>
   </body>
 </html>
