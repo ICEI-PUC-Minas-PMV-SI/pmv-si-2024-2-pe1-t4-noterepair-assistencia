@@ -1,5 +1,5 @@
 {
-  "name": "NoteRepair",
+  "name": "noterepair",
   "version": "1.0.0",
   "description": "Uma plataforma integrada e automatizada que otimiza todo o processo de reparo de notebooks, desde o cadastro inicial do cliente até a entrega do equipamento consertado.",
   "main": "index.html",
@@ -17,6 +17,7 @@
     "json-server-auth": "^2.1.0"
   },
   "devDependencies": {
-    "concurrently": "^9.1.0"
+    "concurrently": "^9.1.0",
+    "json-server": "^1.0.0-beta.3"
   }
 }

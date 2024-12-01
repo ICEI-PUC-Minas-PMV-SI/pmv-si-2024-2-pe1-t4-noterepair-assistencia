@@ -141,5 +141,29 @@
       "chat_id": 1,
       "id": 17
     }
+  ],
+  "clientes": [
+    {
+      "id_reparo": "#0001",
+      "data": "27/03/2023",
+      "status": "Recebido",
+      "valor": "R$ 800,00",
+      "cliente": "Lucas Almeida da Silva"
+    },
+    {
+      "id_reparo": "#0071",
+      "data": "14/02/2024",
+      "status": "Recusado",
+      "valor": "R$ 0,00",
+      "cliente": "Cláudia Abreu Santos"
+    },
+
+    {
+      "id_reparo": "#0201",
+      "data": "27/08/2024",
+      "status": "Enviado",
+      "valor": "R$ 1600,00",
+      "cliente": "Carlos de Almeida Andrade"
+    }
   ]
 }

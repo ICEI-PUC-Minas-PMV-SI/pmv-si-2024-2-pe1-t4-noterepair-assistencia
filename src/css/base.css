@@ -124,3 +124,207 @@ table td img.arrow {
   width: 15px;
   height: 15px;
 }
+
+/* 1. Estilização da Célula de Status */
+.status-cell {
+  position: relative;
+  cursor: pointer;
+  padding: 8px 12px;
+  background-color: #ffffff;
+  /* Fundo suave para a célula de status */
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.status-cell:hover {
+  background-color: #e6f7ff;
+  /* Fundo ao passar o mouse */
+}
+
+/* 2. Estilização do Texto do Status */
+.status-text {
+  font-weight: 500;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+/* Color Coding dos Status */
+.status-text.Manutencao {
+  color: #faad14;
+  /* Amarelo */
+}
+
+.status-text.Em\ Análise {
+  color: #1890ff;
+  /* Azul */
+}
+
+.status-text.Concluído {
+  color: #52c41a;
+  /* Verde */
+}
+
+/* 3. Estilização do Ícone de Seta para Baixo */
+.icon-down-arrow {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.3s ease;
+  vertical-align: middle;
+}
+
+/* Rotacionar a seta quando o menu está aberto */
+.status-cell.open .icon-down-arrow {
+  transform: rotate(180deg);
+}
+
+/* 4. Estilização do Menu de Opções de Status */
+.status-options {
+  position: absolute;
+  top: 110%;
+  /* Posiciona o menu logo abaixo da célula */
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  width: 160px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Mostrar o menu quando a célula está aberta */
+.status-cell.open .status-options {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* 5. Estilização das Opções de Status */
+.status-option {
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+  transition: background-color 0.2s ease;
+}
+
+.status-option:hover {
+  background-color: #f0f0f0;
+  /* Fundo ao passar o mouse sobre a opção */
+}
+
+/* 6. Responsividade para Telas Menores */
+@media (max-width: 768px) {
+  .status-options {
+    width: 140px;
+  }
+
+  .status-option {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+}
+
+/* Estilização da Célula de Status */
+.status-cell {
+  position: relative;
+  cursor: pointer;
+  padding: 8px 12px;
+  background-color: #ffffff;
+  /* Fundo suave para a célula de status */
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.status-cell:hover {
+  background-color: #e6f7ff;
+  /* Fundo ao passar o mouse */
+}
+
+.status-text {
+  font-weight: 500;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+/* Color Coding dos Status */
+.status-text.Em\ Progresso {
+  color: #faad14;
+  /* Amarelo */
+}
+
+.status-text.Concluído {
+  color: #52c41a;
+  /* Verde */
+}
+
+.status-text.Pendente {
+  color: #f5222d;
+  /* Vermelho */
+}
+
+/* Estilização do Ícone de Seta para Baixo */
+.icon-down-arrow {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.3s ease;
+  vertical-align: middle;
+}
+
+/* Rotacionar a seta quando o menu está aberto */
+.status-cell.open .icon-down-arrow {
+  transform: rotate(180deg);
+}
+
+/* Estilização do Menu de Opções de Status */
+.status-options {
+  position: absolute;
+  top: 110%;
+  /* Posiciona o menu logo abaixo da célula */
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  width: 160px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.status-cell.open .status-options {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Estilização das Opções de Status */
+.status-option {
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+  transition: background-color 0.2s ease;
+}
+
+.status-option:hover {
+  background-color: #f0f0f0;
+  /* Fundo ao passar o mouse sobre a opção */
+}
+
+/* Responsividade para Telas Menores */
+@media (max-width: 768px) {
+  .status-options {
+    width: 140px;
+  }
+
+  .status-option {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+}

@@ -27,3 +27,23 @@
   background: none;
 }
 
+.btn-delete-relatorio{
+    border: none;
+    background: none;
+  }
+    /* Remove decoração e espaçamento entre os ícones */
+    td a,
+    td button {
+      text-decoration: none;
+      margin: 0;
+      padding: 0;
+      border: none;
+      background: none;
+    }
+  
+    td a img,
+    td button img {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    
