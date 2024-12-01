@@ -1,10 +1,89 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Leanne Graham",
       "username": "Bret",
       "email": "HgSdN@example.com"
+    }
+  ],
+  "pedidos": [
+    {
+      "id": "1",
+      "numero": "#0001",
+      "nomeCliente": "Lucas Almeida da Silva",
+      "dataCriacao": "2024-09-10",
+      "status": "Em Análise",
+      "dataUltimoStatus": "2024-11-30",
+      "tecnico": "Nicolas Santos",
+      "marca": "ACER",
+      "modelo": "Nitro 6",
+      "descricao": "Notebook com tela piscando e problemas na bateria.",
+      "estimativa": "10 dias úteis",
+      "coleta": "Rua das Flores, 123, Bairro Centro, Cidade X",
+      "entrega": "Rua das Orquídeas, 456, Bairro Jardim, Cidade X"
+    },
+    {
+      "id": "2",
+      "numero": "#0002",
+      "nomeCliente": "Mariana Costa Pereira",
+      "dataCriacao": "2024-09-18",
+      "status": "Manutenção",
+      "dataUltimoStatus": "2024-11-30",
+      "tecnico": "Emily Cavalcanti",
+      "marca": "DELL",
+      "modelo": "Inspiron 15",
+      "descricao": "Problemas de aquecimento e reinicialização inesperada.",
+      "estimativa": "6 dias úteis",
+      "coleta": "Avenida Brasil, 987, Bairro Industrial, Cidade Y",
+      "entrega": "Avenida Central, 1234, Bairro Comercial, Cidade Y"
+    },
+    {
+      "id": "3",
+      "numero": "#0003",
+      "nomeCliente": "Rafael Souza Mendes",
+      "dataCriacao": "2024-09-20",
+      "status": "Concluído",
+      "dataUltimoStatus": "2024-11-30",
+      "tecnico": "Nicolas Santos",
+      "marca": "HP",
+      "modelo": "Pavilion x360",
+      "descricao": "Teclado com algumas teclas não funcionando e lentidão.",
+      "estimativa": "5 dias úteis",
+      "coleta": "Rua dos Pinheiros, 789, Bairro São José, Cidade Z",
+      "entrega": "Rua das Palmeiras, 321, Bairro Boa Vista, Cidade Z"
+    }
+  ],
+  "relatorios": [
+    {
+      "id": "1",
+      "numero": "#0001",
+      "nome": "Desempenho Financeiro",
+      "dataGeracao": "2024-09-10",
+      "status": "Pendente",
+      "tipo": "Financeiro",
+      "responsavel": "Alice Souza Gomes",
+      "pdfPath": "relatorio.pdf"
+    },
+    {
+      "id": "2",
+      "numero": "#0002",
+      "nome": "Status do Reparo",
+      "dataGeracao": "2024-09-18",
+      "status": "Concluído",
+      "tipo": "Reparo",
+      "responsavel": "Emily Cavalcanti",
+      "pdfPath": "relatorio.pdf"
+    },
+    {
+      "id": "3",
+      "numero": "#0003",
+      "nome": "Resumo de Transações",
+      "dataGeracao": "2024-09-20",
+      "status": "Em Progresso",
+      "tipo": "Financeiro",
+      "responsavel": "Nicolas Santos",
+      "pdfPath": "relatorio.pdf"
     }
   ]
 }
