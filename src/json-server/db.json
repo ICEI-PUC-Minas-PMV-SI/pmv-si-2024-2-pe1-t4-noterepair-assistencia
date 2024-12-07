@@ -230,5 +230,49 @@
       "responsavel": "Nicolas Santos",
       "pdfPath": "relatorio.pdf"
     }
+  ],
+  "marcas": [
+    {
+      "id": 1,
+      "nome": "Dell"
+    },
+    {
+      "id": 2,
+      "nome": "HP"
+    },
+    {
+      "id": 3,
+      "nome": "Lenovo"
+    },
+    {
+      "id": 4,
+      "nome": "Asus"
+    },
+    {
+      "id": 5,
+      "nome": "Acer"
+    }
+  ],
+  "orcamentos": [
+    {
+      "id": "22e9",
+      "marca": "Acer",
+      "modelo": "Nitro 5",
+      "descricao": "Um dos principais problemas que os usuários enfrentam com notebooks é a lentidão no desempenho, muitas vezes acompanhada de superaquecimento. Isso pode ocorrer devido a vários fatores, incluindo a ausência de manutenção regular, como a limpeza de ventiladores e dissipadores de calor, que acumulam poeira ao longo do tempo. Além disso, a execução de muitos programas simultaneamente ou a falta de espaço no disco rígido pode sobrecarregar o sistema. Esse superaquecimento pode levar a desligamentos inesperados e danos permanentes ao hardware, tornando essencial a manutenção adequada e, se necessário, o upgrade de componentes como a memória RAM ou a troca do HD por um SSD.",
+      "coleta": {
+        "cep": "54270-060",
+        "bairro": "Curado",
+        "logradouro": "Rua João Lopes",
+        "complemento": "(Cj.Res.Curado IV)",
+        "data": "2024-12-07"
+      },
+      "entrega": {
+        "mesmoDaColeta": true,
+        "cep": "54270-060",
+        "bairro": "Curado",
+        "logradouro": "Rua João Lopes",
+        "complemento": "(Cj.Res.Curado IV)"
+      }
+    }
   ]
 }
