@@ -39,20 +39,24 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Gerencia a obrigatoriedade dos campos de entrega
-  document.getElementById("mesmo_da_coleta").addEventListener("change", function (e) {
-    const isChecked = e.target.checked;
-    const entregaCampos = document.querySelectorAll("#endereco-entrega-campos input");
+  document
+    .getElementById("mesmo_da_coleta")
+    .addEventListener("change", function (e) {
+      const isChecked = e.target.checked;
+      const entregaCampos = document.querySelectorAll(
+        "#endereco-entrega-campos input",
+      );
 
-    entregaCampos.forEach(function (campo) {
-      if (isChecked) {
-        campo.required = false;
-        campo.disabled = true;
-      } else {
-        campo.required = campo.id !== "complemento-entrega"; 
-        campo.disabled = false;
-      }
+      entregaCampos.forEach(function (campo) {
+        if (isChecked) {
+          campo.required = false;
+          campo.disabled = true;
+        } else {
+          campo.required = campo.id !== "complemento-entrega";
+          campo.disabled = false;
+        }
+      });
     });
-  });
 });
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -66,7 +70,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const cepEntregaInput = document.getElementById("cep-entrega");
   const bairroEntregaInput = document.getElementById("bairro-entrega");
   const logradouroEntregaInput = document.getElementById("logradouro-entrega");
-  const complementoEntregaInput = document.getElementById("complemento-entrega");
+  const complementoEntregaInput = document.getElementById(
+    "complemento-entrega",
+  );
 
   // Função para buscar endereço na ViaCEP
   function buscarEndereco(cep, onSuccess, onError) {
@@ -97,14 +103,12 @@ document.addEventListener("DOMContentLoaded", function () {
         (data) => {
           bairroColetaInput.value = data.bairro || "";
           logradouroColetaInput.value = data.logradouro || "";
-          complementoColetaInput.value = data.complemento || "";
         },
         () => {
           bairroColetaInput.value = "";
           logradouroColetaInput.value = "";
-          complementoColetaInput.value = "";
           console.log("CEP de coleta não encontrado.");
-        }
+        },
       );
     }
   });
@@ -118,19 +122,16 @@ document.addEventListener("DOMContentLoaded", function () {
         (data) => {
           bairroEntregaInput.value = data.bairro || "";
           logradouroEntregaInput.value = data.logradouro || "";
-          complementoEntregaInput.value = data.complemento || "";
         },
         () => {
           bairroEntregaInput.value = "";
           logradouroEntregaInput.value = "";
-          complementoEntregaInput.value = "";
           console.log("CEP de entrega não encontrado.");
-        }
+        },
       );
     }
   });
 });
-
 
 // --- Novas Funcionalidades: Carregar Marcas e Enviar Dados via POST ---
 
@@ -143,8 +144,9 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch("http://localhost:3000/marcas")
       .then((response) => response.json())
       .then((marcas) => {
-        marcaSelect.innerHTML = '<option value="" disabled selected>Selecione a marca</option>';
-        marcas.forEach(marca => {
+        marcaSelect.innerHTML =
+          '<option value="" disabled selected>Selecione a marca</option>';
+        marcas.forEach((marca) => {
           const option = document.createElement("option");
           option.value = marca.nome;
           option.textContent = marca.nome;
@@ -153,12 +155,14 @@ document.addEventListener("DOMContentLoaded", function () {
       })
       .catch((error) => {
         console.error("Erro ao carregar marcas:", error);
-        marcaSelect.innerHTML = '<option value="" disabled selected>Erro ao carregar marcas</option>';
+        marcaSelect.innerHTML =
+          '<option value="" disabled selected>Erro ao carregar marcas</option>';
       });
   }
 
   carregarMarcas();
 
+  const dataColeta = document.getElementById("data-coleta").value;
   // Ao enviar o formulário, salva os dados no db.json (via POST em /orcamentos)
   formOrcamento.addEventListener("submit", function (event) {
     event.preventDefault();
@@ -172,15 +176,24 @@ document.addEventListener("DOMContentLoaded", function () {
         bairro: document.getElementById("bairro-coleta").value,
         logradouro: document.getElementById("logradouro-coleta").value,
         complemento: document.getElementById("complemento-coleta").value,
-        data: document.getElementById("data-coleta").value
+        data: formatarData(dataColeta),
       },
       entrega: {
         mesmoDaColeta: document.getElementById("mesmo_da_coleta").checked,
         cep: document.getElementById("cep-entrega").value,
         bairro: document.getElementById("bairro-entrega").value,
         logradouro: document.getElementById("logradouro-entrega").value,
-        complemento: document.getElementById("complemento-entrega").value
-      }
+        complemento: document.getElementById("complemento-entrega").value,
+      },
+      status: "em-analise",
+      cliente_id: JSON.parse(localStorage.getItem("user")).id,
+      tecnico_id: 1,
+      data: formatarData(`${new Date().toISOString()}`.substring(0, 10)),
+      dataUltimoStatus: formatarData(
+        `${new Date().toISOString()}`.substring(0, 10),
+      ),
+      valor: 0,
+      reparo_descricao: "",
     };
 
     // Se "mesmo da coleta" estiver marcado, sobrescreve os dados de entrega pelos de coleta
@@ -194,9 +207,9 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch("http://localhost:3000/orcamentos", {
       method: "POST",
       headers: {
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
       },
-      body: JSON.stringify(dados)
+      body: JSON.stringify(dados),
     })
       .then((response) => response.json())
       .then((data) => {
@@ -210,3 +223,9 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   });
 });
+
+function formatarData(data) {
+  const partes = data.split("-");
+  if (partes.length <= 1) return data;
+  return `${partes[2]}/${partes[1]}/${partes[0]}`;
+}
