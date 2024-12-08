@@ -1,29 +1,22 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title:
+title: Noterepair Assistência
 authors:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - name-suffix: Professor XXXX
+  - family-names: Dos Santos
+    given-names: João Victor
+  - family-names: Gonçalves Silva
+    given-names: Marcos Paulo
+  - family-names: Santos Morais
+    given-names: Ryan Vinicius
+  - name-suffix: Professora
     affiliation: PUC Minas
-    family-names:
-    given-names:
+    family-names: Hanne Soares de Andrade
+    given-names: Michelle Hanne
 keywords:
-  -
-  -
-repository-code:
+  - Assintência Técnica
+  - Acompanhamento de Pedidos
+  - Gerenciamento
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-2-pe1-t4-noterepair-assistencia
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2023-06-30
+date-released: 2024-12-08
