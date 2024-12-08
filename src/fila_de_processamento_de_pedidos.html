@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="css/components/modal.css" />
   <link rel="stylesheet" href="css/components/input.css" />
   <link rel="stylesheet" href="css/components/botao.css" />
+  <script src="js/check_auth.js" role="gestor"></script>
   <title>NoteRepair - Fila de Processamento de Pedidos</title>
 </head>
 
@@ -119,33 +120,37 @@
         <h1 class="modal-title">Editar Pedido <span id="editar-pedido-numero-display"></span></h1>
         <form id="form-editar-pedido">
           <input type="hidden" id="editar-pedido-id" />
-          <p>
-            <strong>Número do Pedido:</strong>
-            <input type="text" id="editar-pedido-numero" readonly />
-          </p>
-          <p>
+          <p class="form-field">
             <strong>Marca do Notebook:</strong>
             <input type="text" id="editar-marca-notebook" required />
           </p>
-          <p>
+          <p class="form-field">
             <strong>Modelo do Notebook:</strong>
             <input type="text" id="editar-modelo-notebook" required />
           </p>
-          <p>
+          <p class="form-field">
             <strong>Descrição do Problema:</strong>
-            <textarea id="editar-descricao-problema" required></textarea>
+            <textarea id="editar-descricao-problema" style="width: 100%;" required></textarea>
           </p>
-          <p>
+          <p class="form-field">
             <strong>Estimativa de Reparo:</strong>
             <input type="text" id="editar-estimativa-reparo" required />
           </p>
-          <p>
-            <strong>Endereço da Coleta:</strong>
-            <input type="text" id="editar-endereco-coleta" required />
+          <p class="form-field">
+            <strong>CEP Entrega:</strong>
+            <input type="text" id="editar-endereco-cep-entrega" required />
           </p>
-          <p>
-            <strong>Endereço da Entrega:</strong>
-            <input type="text" id="editar-endereco-entrega" required />
+          <p class="form-field">
+            <strong>Bairro Entrega:</strong>
+            <input type="text" id="editar-endereco-bairro-entrega" required />
+          </p>
+          <p class="form-field">
+            <strong>Logradouro Entrega:</strong>
+            <input type="text" id="editar-endereco-logradouro-entrega" required />
+          </p>
+          <p class="form-field">
+            <strong>Complemento Entrega:</strong>
+            <input type="text" id="editar-endereco-complemento-entrega" required />
           </p>
           <div class="form-btn form-btn-centerized">
             <button type="submit">

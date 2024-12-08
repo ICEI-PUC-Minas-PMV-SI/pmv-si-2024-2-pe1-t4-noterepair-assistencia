@@ -16,27 +16,85 @@
     },
     {
       "email": "jvgestor@gmail.com",
-      "password": "$2a$10$83fG9P8rVmETHd2zZfqgLe.Wd3WuK6GD9M0Ugy5Mpg1do9MzJwsCu",
+      "password": "$2a$10$W0rxNuW9x/f97CehVoXgOuYzYaZhBFuQEsasgwSlbSHX9eAvu7yce",
       "nome": "João Victor (Gestor)",
       "tipo": "gestor",
       "id": 3
+    },
+    {
+      "email": "jvc2@gmail.com",
+      "password": "$2a$10$W0rxNuW9x/f97CehVoXgOuYzYaZhBFuQEsasgwSlbSHX9eAvu7yce",
+      "nome": "João Victor (Cliente 2)",
+      "tipo": "cliente",
+      "id": 4
     }
   ],
-  "reparos": [
+  "orcamentos": [
     {
       "id": 1,
-      "status": "em-manutencao",
-      "reparo_id": "1",
-      "cliente": "João Victor (Cliente)",
+      "marca": "Acer",
+      "modelo": "Nitro 5",
+      "descricao": "Um dos principais problemas que os usuários enfrentam com notebooks é a lentidão no desempenho, muitas vezes acompanhada de superaquecimento. Isso pode ocorrer devido a vários fatores, incluindo a ausência de manutenção regular, como a limpeza de ventiladores e dissipadores de calor, que acumulam poeira ao longo do tempo. Além disso, a execução de muitos programas simultaneamente ou a falta de espaço no disco rígido pode sobrecarregar o sistema. Esse superaquecimento pode levar a desligamentos inesperados e danos permanentes ao hardware, tornando essencial a manutenção adequada e, se necessário, o upgrade de componentes como a memória RAM ou a troca do HD por um SSD.",
+      "coleta": {
+        "cep": "54270-060",
+        "bairro": "Curado",
+        "logradouro": "Rua João Lopes",
+        "complemento": "(Cj.Res.Curado IV)",
+        "data": "2024-12-07"
+      },
+      "entrega": {
+        "cep": "54270-060",
+        "bairro": "Curado",
+        "logradouro": "12, Rua João Lopes",
+        "complemento": "(Cj.Res.Curado IV)"
+      },
+      "status": "concluido",
+      "cliente_id": 1,
+      "tecnico_id": 2,
       "data": "27/03/2023",
-      "orcamento_descricao": "Isso é problema de junta!!! Junta tudo e joga fora.",
-      "orcamento_valor": "98.99"
+      "dataUltimoStatus": "2024-12-08",
+      "estimativa": "12 dias",
+      "valor": "98.99",
+      "reparo_descricao": "Problema de junta, junta tudo e joga fora",
+      "reparo_id": "1"
+    },
+    {
+      "id": 2,
+      "marca": "Acer",
+      "modelo": "Nitro 5",
+      "descricao": "Um dos principais problemas que os usuários enfrentam com notebooks é a lentidão no desempenho, muitas vezes acompanhada de superaquecimento. Isso pode ocorrer devido a vários fatores, incluindo a ausência de manutenção regular, como a limpeza de ventiladores e dissipadores de calor, que acumulam poeira ao longo do tempo. Além disso, a execução de muitos programas simultaneamente ou a falta de espaço no disco rígido pode sobrecarregar o sistema. Esse superaquecimento pode levar a desligamentos inesperados e danos permanentes ao hardware, tornando essencial a manutenção adequada e, se necessário, o upgrade de componentes como a memória RAM ou a troca do HD por um SSD.",
+      "coleta": {
+        "cep": "54270-060",
+        "bairro": "Curado",
+        "logradouro": "Rua João Lopes",
+        "complemento": "(Cj.Res.Curado IV)",
+        "data": "2024-12-07"
+      },
+      "entrega": {
+        "mesmoDaColeta": true,
+        "cep": "54270-060",
+        "bairro": "Curado",
+        "logradouro": "Rua João Lopes",
+        "complemento": "(Cj.Res.Curado IV)"
+      },
+      "status": "em-manutencao",
+      "cliente_id": 4,
+      "tecnico_id": 2,
+      "data": "27/03/2023",
+      "dataUltimoStatus": "27/03/2023",
+      "valor": "58.95",
+      "reparo_descricao": "Problema de junta, junta tudo e joga fora.",
+      "reparo_id": "2"
     }
   ],
   "chats": [
     {
       "id": 1,
       "reparo_id": 1
+    },
+    {
+      "reparo_id": "2",
+      "id": 2
     }
   ],
   "messages": [
@@ -141,62 +199,18 @@
       "sender_id": 2,
       "chat_id": 1,
       "id": 17
-    }
-  ],
-  "clientes": [
-    {
-      "id_reparo": "#0001",
-      "data": "27/03/2023",
-      "status": "Recebido",
-      "valor": "R$ 800,00",
-      "cliente": "Lucas Almeida da Silva"
-    }
-  ],
-  "pedidos": [
-    {
-      "id": "1",
-      "numero": "#0001",
-      "nomeCliente": "Lucas Almeida da Silva",
-      "dataCriacao": "2024-09-10",
-      "status": "Em Análise",
-      "dataUltimoStatus": "2024-11-30",
-      "tecnico": "Nicolas Santos",
-      "marca": "ACER",
-      "modelo": "Nitro 6",
-      "descricao": "Notebook com tela piscando e problemas na bateria.",
-      "estimativa": "10 dias úteis",
-      "coleta": "Rua das Flores, 123, Bairro Centro, Cidade X",
-      "entrega": "Rua das Orquídeas, 456, Bairro Jardim, Cidade X"
     },
     {
-      "id": "2",
-      "numero": "#0002",
-      "nomeCliente": "Mariana Costa Pereira",
-      "dataCriacao": "2024-09-18",
-      "status": "Manutenção",
-      "dataUltimoStatus": "2024-11-30",
-      "tecnico": "Emily Cavalcanti",
-      "marca": "DELL",
-      "modelo": "Inspiron 15",
-      "descricao": "Problemas de aquecimento e reinicialização inesperada.",
-      "estimativa": "6 dias úteis",
-      "coleta": "Avenida Brasil, 987, Bairro Industrial, Cidade Y",
-      "entrega": "Avenida Central, 1234, Bairro Comercial, Cidade Y"
+      "message": "Bla",
+      "sender_id": 2,
+      "chat_id": 2,
+      "id": 18
     },
     {
-      "id": "3",
-      "numero": "#0003",
-      "nomeCliente": "Rafael Souza Mendes",
-      "dataCriacao": "2024-09-20",
-      "status": "Concluído",
-      "dataUltimoStatus": "2024-11-30",
-      "tecnico": "Nicolas Santos",
-      "marca": "HP",
-      "modelo": "Pavilion x360",
-      "descricao": "Teclado com algumas teclas não funcionando e lentidão.",
-      "estimativa": "5 dias úteis",
-      "coleta": "Rua dos Pinheiros, 789, Bairro São José, Cidade Z",
-      "entrega": "Rua das Palmeiras, 321, Bairro Boa Vista, Cidade Z"
+      "message": "Olá",
+      "sender_id": 4,
+      "chat_id": 2,
+      "id": 19
     }
   ],
   "relatorios": [
@@ -251,28 +265,6 @@
     {
       "id": 5,
       "nome": "Acer"
-    }
-  ],
-  "orcamentos": [
-    {
-      "id": "22e9",
-      "marca": "Acer",
-      "modelo": "Nitro 5",
-      "descricao": "Um dos principais problemas que os usuários enfrentam com notebooks é a lentidão no desempenho, muitas vezes acompanhada de superaquecimento. Isso pode ocorrer devido a vários fatores, incluindo a ausência de manutenção regular, como a limpeza de ventiladores e dissipadores de calor, que acumulam poeira ao longo do tempo. Além disso, a execução de muitos programas simultaneamente ou a falta de espaço no disco rígido pode sobrecarregar o sistema. Esse superaquecimento pode levar a desligamentos inesperados e danos permanentes ao hardware, tornando essencial a manutenção adequada e, se necessário, o upgrade de componentes como a memória RAM ou a troca do HD por um SSD.",
-      "coleta": {
-        "cep": "54270-060",
-        "bairro": "Curado",
-        "logradouro": "Rua João Lopes",
-        "complemento": "(Cj.Res.Curado IV)",
-        "data": "2024-12-07"
-      },
-      "entrega": {
-        "mesmoDaColeta": true,
-        "cep": "54270-060",
-        "bairro": "Curado",
-        "logradouro": "Rua João Lopes",
-        "complemento": "(Cj.Res.Curado IV)"
-      }
     }
   ]
 }

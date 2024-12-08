@@ -68,7 +68,7 @@ footer {
 
 /* Estilos para os links de contato */
 .contact-info a {
-  position: relative; /* Define um contexto de posicionamento para o pseudo-elemento ::after */
+  /* position: relative; /* Define um contexto de posicionamento para o pseudo-elemento ::after */
   color: white; /* Cor do link */
   text-decoration: none; /* Remove sublinhado padrão dos links */
 }

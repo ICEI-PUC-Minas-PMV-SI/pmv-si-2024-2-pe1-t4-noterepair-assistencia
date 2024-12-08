@@ -5,6 +5,7 @@ const STATUS = {
   concluido: [3, "etapa-concluido"],
 };
 let currentStatus;
+let chatId;
 
 const getParams = () => {
   const params = new URLSearchParams(window.location.search);
@@ -18,16 +19,18 @@ const getParams = () => {
 };
 
 const params = getParams();
-const reparoId = params.get("id");
+const orcamentoId = params.get("id");
 
 // Replace reparo id
 document
   .querySelectorAll(".reparo-id")
-  .forEach((element) => (element.innerText = `#${reparoId}`));
+  .forEach((element) => (element.innerText = `#${orcamentoId}`));
 
 // Replace status
 const loadStatus = async () => {
-  const response = await fetch(`http://localhost:3000/reparos/${reparoId}`);
+  const response = await fetch(
+    `http://localhost:3000/orcamentos/${orcamentoId}`,
+  );
   if (response.status != 200) {
     alert("Reparo não encontrado. Retornando para a Lista de Reparos.");
     window.location.href = "lista_de_reparos_cliente.html";
@@ -74,7 +77,6 @@ containerMensagens.addEventListener("scroll", (e) => {
 });
 
 const loadChat = async () => {
-  const chatId = await getChatId();
   const messages = await getChatMessages(chatId);
 
   const userId = JSON.parse(localStorage.getItem("user")).id;
@@ -101,9 +103,25 @@ const loadChat = async () => {
 
 const getChatId = async () => {
   const response = await fetch(
-    `http://localhost:3000/chats?reparo_id=${reparoId}`,
+    `http://localhost:3000/chats?reparo_id=${orcamentoId}`,
   );
-  return (await response.json())[0].id;
+  const data = await response.json();
+
+  if (data.length == 0) {
+    await fetch("http://localhost:3000/chats", {
+      method: "POST",
+      body: JSON.stringify({
+        reparo_id: orcamentoId,
+      }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+
+    return getChatId();
+  }
+
+  return data[0].id;
 };
 
 const getChatMessages = async (chatId) => {
@@ -120,6 +138,7 @@ const clearChat = () => {
 // Start at the bottom
 
 (async () => {
+  chatId = await getChatId();
   await loadChat();
   containerMensagens.scrollTop = containerMensagens.scrollHeight;
 })();
@@ -168,9 +187,9 @@ if (botaoVoltarStatus) {
       }
     }
 
-    await fetch("http://localhost:3000/reparos/" + reparoId, {
+    await fetch("http://localhost:3000/orcamentos/" + orcamentoId, {
       body: JSON.stringify({
-        reparo_id: reparoId,
+        reparo_id: orcamentoId,
         status: newStatus,
       }),
       method: "PATCH",
@@ -198,9 +217,9 @@ if (botaoProximoStatus) {
       }
     }
 
-    await fetch("http://localhost:3000/reparos/" + reparoId, {
+    await fetch("http://localhost:3000/orcamentos/" + orcamentoId, {
       body: JSON.stringify({
-        reparo_id: reparoId,
+        reparo_id: orcamentoId,
         status: newStatus,
       }),
       method: "PATCH",
@@ -223,16 +242,19 @@ if (formularioOrcamento) {
 
     const data = new FormData(e.target);
 
-    const response = await fetch(`http://localhost:3000/reparos/${reparoId}`, {
-      method: "PATCH",
-      body: JSON.stringify({
-        orcamento_descricao: data.get("orcamento-descricao"),
-        orcamento_valor: data.get("orcamento-valor"),
-      }),
-      headers: {
-        "Content-Type": "application/json",
+    const response = await fetch(
+      `http://localhost:3000/orcamentos/${orcamentoId}`,
+      {
+        method: "PATCH",
+        body: JSON.stringify({
+          reparo_descricao: data.get("orcamento-descricao"),
+          valor: data.get("orcamento-valor"),
+        }),
+        headers: {
+          "Content-Type": "application/json",
+        },
       },
-    });
+    );
 
     if (response.status == 200) {
       alert("Orcamento enviado com sucesso!");
@@ -240,11 +262,13 @@ if (formularioOrcamento) {
   });
 
   (async () => {
-    const response = await fetch(`http://localhost:3000/reparos/${reparoId}`);
-    const reparo = await response.json();
+    const response = await fetch(
+      `http://localhost:3000/orcamentos/${orcamentoId}`,
+    );
+    const orcamento = await response.json();
     formularioOrcamento.querySelector("#orcamento-valor").value =
-      reparo.orcamento_valor || "0,00";
+      orcamento.valor || "0,00";
     formularioOrcamento.querySelector("#orcamento-descricao").value =
-      reparo.orcamento_descricao || "";
+      orcamento.reparo_descricao || "";
   })();
 }
