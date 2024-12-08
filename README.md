@@ -22,7 +22,7 @@ O objetivo da NoteRepair é desenvolver uma plataforma integrada e automatizada 
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Acess o site https://noterepair.budinha.dev/.
 
 # Documentação
 
