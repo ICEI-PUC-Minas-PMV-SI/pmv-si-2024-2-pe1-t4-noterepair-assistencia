@@ -22,7 +22,7 @@ O objetivo da NoteRepair é desenvolver uma plataforma integrada e automatizada 
 
 ## Instruções de utilização
 
-Acess o site https://noterepair.budinha.dev/.
+Acesse o site https://noterepair.budinha.dev/.
 
 # Documentação
 
