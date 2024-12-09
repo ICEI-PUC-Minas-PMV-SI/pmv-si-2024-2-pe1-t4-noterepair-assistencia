@@ -64,6 +64,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Dados no formulários
 **Resultado obtido** | Sucesso
 
+**Caso de Teste** | **CT08 - Solicitação de Reparo**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse a tela de "Pedido de Orçamento" no menu do cliente <br> 2) Preencha o formulário corretamente <br> 3) Clique em "Enviar Orçamento
+**Requisitos associados** | RF-002
+**Resultado esperado** | Mensagem que o orçamento foi criado com sucesso
+**Dados de entrada** | Dados no formulários
+**Resultado obtido** | Sucesso
+
 
 ## Registro dos Testes de Software
 
@@ -102,6 +110,11 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 |---|---|
 |Requisito Associado | RF-006 - Relatório do status do reparo e organização das prioridades de trabalho dos técnicos. |
 |Link do vídeo do teste realizado: | [Vídeo](https://sgapucminasbr-my.sharepoint.com/personal/1572021_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EQr3zhvzmvFPqj2KwcMbt8YBzPe0BCsUUMygO74F2fHf0g&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jvqp0D) | 
+
+|*Caso de Teste*                                 |*CT08 - Solicitação de Reparo*                                        |
+|---|---|
+|Requisito Associado | RF-002 - Facilitar a solicitação de reparo diretamente pela plataforma. |
+|Link do vídeo do teste realizado: | [Vídeo](https://sgapucminasbr-my.sharepoint.com/personal/1572021_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=ERPzYMRWQG5MhNI5oP6J7JwB-h4RpejiDiecXNrjZMllyg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=au09Hs) | 
 
 
 
